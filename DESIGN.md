@@ -36,13 +36,14 @@ SVG 里不能加载外部字体（作为 `<img>` 渲染时），所以性格来�
 
 ## 版式
 
-四块，全部 1000 宽：
+三块图，全部 1000 宽：
 
 1. **hero**（1000×272）：台站铭牌。呼号 44px、一句话、四个读数、发丝分隔。
 2. **rhythm**（1000×330）：近 6 周每日贡献（灰柱）+ 7 日均线（琥珀）+ 峰值标注；
-   下方一排是近一年的活跃天 / 最长连续 / 活跃日均 / 单日峰值。
+   下方一排是近一年的活跃天 / 最长连续 / 活跃日均。
 3. **languages**（1000×272）：按主语言统计的堆叠条 + 排名列表。
-4. **README 正文**：项目列表由脚本重写，其余手写。
+
+README 里不放任何正文：三张图上下排开，数据本身就是全部内容。
 
 数据面板不加底色、不加边框，直接落在 GitHub 的页面底色上；只有 hero 是一块板。
 这样在亮色和暗色主题里都不会出现"贴上去的卡片"。
@@ -71,9 +72,6 @@ GitHub GraphQL + 公开日历 HTML
         │  tools/fetch_data.py      → data/profile.json（提交进仓库，便于 diff）
         ▼
    tools/render.py                 → assets/*-{light,dark}.svg
-        │
-        ▼
-   tools/build_readme.py           → 重写 README 里 <!-- projects:start --> 区块
 ```
 
 - 每 6 小时由 `.github/workflows/profile.yml` 跑一次，有变化才提交。
@@ -88,9 +86,8 @@ GitHub GraphQL + 公开日历 HTML
 | 想改 | 改哪 |
 | --- | --- |
 | 呼号、学校、一句话 | `profile.config.json` |
-| 项目区块的顺序 / 数量 | `profile.config.json` 的 `featured`，或 `tools/fetch_data.py` 的 `featured()` |
 | 配色、字号 | `tools/theme.py`，`tools/render.py` 顶部的版式常量 |
-| 正文 | `README.md`（markers 之外随便改） |
+| 图的顺序 / 增减 | `README.md` 的 `<picture>` 区块，`tools/render.py` 的 `render_all()` |
 
 本地刷新：
 

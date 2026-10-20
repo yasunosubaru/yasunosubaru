@@ -288,18 +288,6 @@ def aggregate(repos):
     }
 
 
-def featured(repos, limit, login):
-    def weight(repo):
-        return repo["pushed_at"] or ""
-
-    useful = [
-        repo for repo in repos
-        if repo["description"] and not repo["archived"] and repo["name"] != login
-    ]
-    useful.sort(key=weight, reverse=True)
-    return useful[:limit]
-
-
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--login", default=None)
@@ -334,7 +322,6 @@ def main():
         },
         "contributions": contributions,
         "repos": repos,
-        "featured": featured(repos, int(config.get("featured", 6)), login),
         "languages": totals["languages"],
         "primary_languages": totals["primary_languages"],
         "language_total_bytes": totals["language_total_bytes"],

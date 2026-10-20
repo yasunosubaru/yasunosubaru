@@ -1,4 +1,4 @@
-"""One command for a full refresh: fetch, render, rewrite the README block."""
+"""One command for a full refresh: fetch, then render."""
 
 from __future__ import annotations
 
@@ -17,7 +17,6 @@ def step(script):
 def main():
     step("fetch_data.py")
     step("render.py")
-    step("build_readme.py")
 
 
 if __name__ == "__main__":
