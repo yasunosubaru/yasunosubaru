@@ -15,7 +15,7 @@
   <text x="44" y="228" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="36" fill="#E8EFF4" font-weight="500">22</text>
   <text x="44" y="250" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#8093A0" letter-spacing="0.02em">公开仓库</text>
   <line x1="248" y1="204" x2="248" y2="254" stroke="#1A2732" stroke-width="1"/>
-  <text x="272" y="228" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="36" fill="#E3A93F" font-weight="500">511</text>
+  <text x="272" y="228" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="36" fill="#E3A93F" font-weight="500">512</text>
   <text x="272" y="250" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#8093A0" letter-spacing="0.02em">近一年贡献</text>
   <line x1="476" y1="204" x2="476" y2="254" stroke="#1A2732" stroke-width="1"/>
   <text x="500" y="228" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="36" fill="#E8EFF4" font-weight="500">8</text>
