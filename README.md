@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" alt="yasunosubaru——武汉大学地空学院，做仪器、桌面工具和 AI 智能体" width="1000">
+  <img src="assets/hero-light.svg" alt="yasunosubaru 的公开数据概览：公开仓库、近一年贡献、当前连续、单日峰值" width="1000">
 </picture>
 
 <picture>

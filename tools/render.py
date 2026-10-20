@@ -47,17 +47,16 @@ def panel_title(doc, title, right=None):
 
 def hero(theme, data, config):
     t = theme
-    doc = Doc(W, 272, t, background=t["bg"], frame=True)
-    doc.text(M, 66, config["kicker"], 12.5, t["ink3"], mono=True, ls="0.06em")
+    doc = Doc(W, 248, t, background=t["bg"], frame=True)
+    doc.text(M, 64, config["kicker"], 12.5, t["ink3"], mono=True, ls="0.06em")
 
     moment = stamp(data["meta"]["generated_at"])
-    doc.text(W - M, 66, moment, 12.5, t["ink3"], mono=True, anchor="end")
-    doc.circle(W - M - width_of(moment, 12.5, True) - 13, 62, 3.5, t["accent"], cls="pulse")
+    doc.text(W - M, 64, moment, 12.5, t["ink3"], mono=True, anchor="end")
+    doc.circle(W - M - width_of(moment, 12.5, True) - 13, 60, 3.5, t["accent"], cls="pulse")
 
-    doc.text(M, 112, config["headline"], 44, t["ink"], 600, ls="-0.02em")
-    doc.line(M, 128, M + 48, 128, t["accent"], 3, cls="draw", path_length=1)
-    doc.text(M, 166, config["statement"], 20, t["ink2"])
-    doc.line(M, 192, W - M, 192, t["soft"])
+    doc.text(M, 116, config["headline"], 44, t["ink"], 600, ls="-0.02em")
+    doc.line(M, 132, M + 48, 132, t["accent"], 3, cls="draw", path_length=1)
+    doc.line(M, 164, W - M, 164, t["soft"])
 
     contributions = data["contributions"]
     cells = [
@@ -70,9 +69,9 @@ def hero(theme, data, config):
     for index, (value, label, accent) in enumerate(cells):
         x = M + index * cell_w
         if index:
-            doc.line(x - PAD, 204, x - PAD, 254, t["soft"])
-        doc.text(x, 228, value, 36, t["accent"] if accent else t["ink"], 500, mono=True)
-        doc.text(x, 250, label, 12.5, t["ink3"], mono=True, ls="0.02em")
+            doc.line(x - PAD, 176, x - PAD, 226, t["soft"])
+        doc.text(x, 208, value, 36, t["accent"] if accent else t["ink"], 500, mono=True)
+        doc.text(x, 230, label, 12.5, t["ink3"], mono=True, ls="0.02em")
     return doc
 
 
@@ -240,7 +239,7 @@ def render_all():
     written = []
     for name, theme in THEMES.items():
         cards = {
-            "hero": (hero(theme, data, config), "yasunosubaru — 仪器、桌面工具、AI 智能体"),
+            "hero": (hero(theme, data, config), "yasunosubaru — 公开数据概览"),
             "rhythm": (rhythm(theme, data, config), "近 6 周每日贡献与 7 日均线"),
             "languages": (languages(theme, data, config), "按主语言统计的仓库分布"),
         }
