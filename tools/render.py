@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 # card sizes
 BANNER = (1200, 220)
-HALF = (600, 212)
+HALF = (600, 236)
 WIDE = (1200, 250)
 TALL = (600, 330)
 
@@ -77,16 +77,16 @@ def stats(data):
         (counts.get("issues", 0), "Issue"),
     ]
 
-    doc.line(300, 34, 300, h - 34, TOKENS["border"], 1)
-    doc.line(32, 116, w - 32, 116, TOKENS["border"], 1)
+    doc.line(300, 30, 300, h - 30, TOKENS["border"], 1)
+    doc.line(32, 126, w - 32, 126, TOKENS["border"], 1)
 
     for index, (value, label) in enumerate(tiles):
         column, row = index % 2, index // 2
         x = 32 + column * 268
-        y = 92 + row * 104
-        doc.circle(x + 5, y - 30, 5, ACCENTS[index])
-        doc.text(x, y, count(value), 38, TOKENS["ink"], 500, mono=True)
-        doc.text(x, y + 24, label, 13, TOKENS["muted"])
+        y = 88 + row * 98
+        doc.circle(x + 5, y - 30, 5.5, ACCENTS[index])
+        doc.text(x, y, count(value), 40, TOKENS["ink"], 500, mono=True)
+        doc.text(x, y + 24, label, 14, TOKENS["muted"])
     return doc
 
 
@@ -99,27 +99,27 @@ def languages(data):
 
     entries = (data.get("primary_languages") or [])[:6]
     total = sum(entry["repos"] for entry in entries)
-    doc.text(32, 46, "语言分布", 19, TOKENS["ink"], 600)
-    doc.text(w - 32, 46, f"共 {total} 个仓库", 13, TOKENS["muted"], mono=True, anchor="end")
+    doc.text(32, 48, "语言分布", 20, TOKENS["ink"], 600)
+    doc.text(w - 32, 48, f"共 {total} 个仓库", 14, TOKENS["muted"], mono=True, anchor="end")
 
     left, right = 32, w - 32
-    bar_y, bar_h, gap = 74, 14, 3
+    bar_y, bar_h, gap = 78, 15, 3
     usable = right - left - gap * max(0, len(entries) - 1)
     x = left
     for entry in entries:
         width = usable * entry["repos"] / total if total else 0
         if width <= 0:
             continue
-        doc.rect(x, bar_y, width, bar_h, language_colour(entry["color"]), rx=7)
+        doc.rect(x, bar_y, width, bar_h, language_colour(entry["color"]), rx=7.5)
         x += width + gap
 
     for index, entry in enumerate(entries):
         column, row = index % 2, index // 2
         x = 32 + column * 268
-        y = 128 + row * 32
-        doc.circle(x + 5, y - 5, 5, language_colour(entry["color"]))
-        doc.text(x + 18, y, entry["name"], 15, TOKENS["ink"])
-        doc.text(x + 268 - 34, y, f"{entry['pct']:g}%", 14, TOKENS["muted"], mono=True, anchor="end")
+        y = 134 + row * 34
+        doc.circle(x + 5, y - 5, 5.5, language_colour(entry["color"]))
+        doc.text(x + 19, y, entry["name"], 16, TOKENS["ink"])
+        doc.text(x + 268 - 34, y, f"{entry['pct']:g}%", 15, TOKENS["muted"], mono=True, anchor="end")
     return doc
 
 
@@ -133,14 +133,14 @@ def heatmap(data):
     days = data["contributions"]["days"]
     contributions = data["contributions"]
 
-    doc.text(40, 46, "近一年贡献", 19, TOKENS["ink"], 600)
+    doc.text(40, 48, "近一年贡献", 20, TOKENS["ink"], 600)
 
     # legend
-    legend_x = w - 40 - 5 * 14 - 76
-    doc.text(legend_x, 46, "少", 12, TOKENS["faint"], mono=True)
+    legend_x = w - 40 - 5 * 16 - 78
+    doc.text(legend_x, 48, "少", 13, TOKENS["faint"], mono=True)
     for index in range(5):
-        doc.rect(legend_x + 26 + index * 14, 36, 11, 11, f"var(--heat-{index})", rx=3)
-    doc.text(legend_x + 26 + 5 * 14 + 6, 46, "多", 12, TOKENS["faint"], mono=True)
+        doc.rect(legend_x + 28 + index * 16, 37, 12, 12, f"var(--heat-{index})", rx=3)
+    doc.text(legend_x + 28 + 5 * 16 + 7, 48, "多", 13, TOKENS["faint"], mono=True)
 
     values = sorted(day["count"] for day in days if day["count"] > 0)
     if values:
@@ -172,28 +172,27 @@ def heatmap(data):
         date = dt.date.fromisoformat(day["date"])
         column = (date - grid_start).days // 7
         row = (date.weekday() + 1) % 7
-        if day["count"] > 0:
-            doc.rect(
-                grid_x + column * pitch,
-                grid_y + row * pitch,
-                square, square,
-                f"var(--heat-{level(day['count'])})",
-                rx=4,
-            )
-        if date.day <= 7:
+        doc.rect(
+            grid_x + column * pitch,
+            grid_y + row * pitch,
+            square, square,
+            f"var(--heat-{level(day['count'])})",
+            rx=4,
+        )
+        if date.day <= 7 and (not month_marks or column - month_marks[-1][0] >= 4):
             month_marks.append((column, date.month))
 
     for column, month in month_marks:
-        doc.text(grid_x + column * pitch, grid_y - 10, f"{month}月", 12, TOKENS["faint"], mono=True)
+        doc.text(grid_x + column * pitch, grid_y - 10, f"{month}月", 13, TOKENS["faint"], mono=True)
 
     for row, name in ((1, "周一"), (3, "周三"), (5, "周五")):
-        doc.text(40, grid_y + row * pitch + 13, name, 12, TOKENS["faint"], mono=True)
+        doc.text(40, grid_y + row * pitch + 14, name, 13, TOKENS["faint"], mono=True)
 
     doc.text(
-        40, h - 22,
+        40, h - 24,
         f"{contributions['total']} 次贡献 · {contributions['active_days']} 天有活动 · "
         f"最长连续 {contributions['longest_streak']} 天",
-        13, TOKENS["muted"], mono=True,
+        14, TOKENS["muted"], mono=True,
     )
     return doc
 
@@ -205,19 +204,19 @@ def repos(data):
     doc = Doc(w, h)
     card(doc, 0, 0, w, h)
 
-    doc.text(32, 46, "仓库", 19, TOKENS["ink"], 600)
-    doc.text(w - 32, 46, "最近更新", 13, TOKENS["muted"], mono=True, anchor="end")
+    doc.text(32, 48, "仓库", 20, TOKENS["ink"], 600)
+    doc.text(w - 32, 48, "最近更新", 14, TOKENS["muted"], mono=True, anchor="end")
 
     entries = data.get("showcase") or []
     for index, repo in enumerate(entries):
-        y = 92 + index * 40
-        doc.circle(38, y - 5, 5, language_colour(repo.get("primary_language_color")))
-        doc.text(52, y, repo["name"], 15, TOKENS["ink"], 600, mono=True)
+        y = 96 + index * 40
+        doc.circle(38, y - 5, 5.5, language_colour(repo.get("language_color")))
+        doc.text(53, y, repo["name"], 16, TOKENS["ink"], 600, mono=True)
         stars = repo.get("stars", 0)
-        doc.text(w - 32, y, f"★ {stars}", 13, TOKENS["muted"], mono=True, anchor="end")
-        description = truncate(repo.get("description", ""), 12.5, 470)
+        doc.text(w - 32, y, f"★ {stars}", 14, TOKENS["muted"], mono=True, anchor="end")
+        description = truncate(repo.get("description", ""), 13.5, 455)
         if description:
-            doc.text(52, y + 17, description, 12.5, TOKENS["muted"])
+            doc.text(53, y + 18, description, 13.5, TOKENS["muted"])
     return doc
 
 
@@ -228,10 +227,14 @@ def monthly(data):
     doc = Doc(w, h)
     card(doc, 0, 0, w, h)
 
-    doc.text(32, 46, "月度活跃", 19, TOKENS["ink"], 600)
-    doc.text(w - 32, 46, "近 12 个月", 13, TOKENS["muted"], mono=True, anchor="end")
+    doc.text(32, 48, "月度活跃", 20, TOKENS["ink"], 600)
+    doc.text(w - 32, 48, "自注册以来", 14, TOKENS["muted"], mono=True, anchor="end")
 
-    months = (data.get("contributions", {}).get("by_month") or [])[-12:]
+    months = (data.get("contributions", {}).get("by_month") or [])
+    created = (data.get("user", {}).get("created_at") or "")[:7]
+    if created:
+        months = [month for month in months if month["month"] >= created]
+    months = months[-12:]
     if not months:
         return doc
 
@@ -244,13 +247,13 @@ def monthly(data):
     for index, month in enumerate(months):
         centre = left + slot * (index + 0.5)
         value = month["count"]
-        height = max(3, value / peak * (baseline - top))
+        height = max(4, value / peak * (baseline - top))
         colour = TOKENS["grad_a"] if value else TOKENS["border"]
         doc.rect(centre - bar_w / 2, baseline - height, bar_w, height, colour, rx=6)
         if value:
-            doc.text(centre, baseline - height - 9, count(value), 12, TOKENS["muted"], mono=True, anchor="middle")
+            doc.text(centre, baseline - height - 10, count(value), 13, TOKENS["muted"], mono=True, anchor="middle")
         label = f"{int(month['month'][5:7])}月"
-        doc.text(centre, baseline + 24, label, 12, TOKENS["faint"], mono=True, anchor="middle")
+        doc.text(centre, baseline + 26, label, 13, TOKENS["faint"], mono=True, anchor="middle")
     return doc
 
 
@@ -280,8 +283,32 @@ def render_all():
     return written, data
 
 
+PREVIEW = """<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>bento preview</title>
+<style>
+  body {{ margin: 0; background: #0d1117; padding: 24px 0; }}
+  .wrap {{ width: 880px; margin: 0 auto; }}
+  img {{ max-width: 100%; display: block; }}
+  table {{ width: 100%; border-collapse: collapse; border-spacing: 0; }}
+  td {{ padding: 0; vertical-align: top; }}
+</style></head><body><div class="wrap">
+{body}
+</div></body></html>
+"""
+
+
+def preview():
+    folder = ROOT / ".preview"
+    folder.mkdir(exist_ok=True)
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    body = readme.replace('src="assets/', 'src="../assets/')
+    (folder / "bento.html").write_text(PREVIEW.format(body=body), encoding="utf-8")
+    return folder
+
+
 def main():
     written, data = render_all()
+    preview()
     print(f"rendered {len(written)} cards for {data['meta']['login']}")
 
 
