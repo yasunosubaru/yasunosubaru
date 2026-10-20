@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-labelledby="t d">
+  <title id="t">monthly</title>
+  <desc id="d">近 12 个月的活跃度</desc>
+  <style>:root{--card:#ffffff;--card-2:#f6f8fa;--border:#d0d7de;--ink:#1f2328;--ink-2:#424a53;--muted:#59636e;--faint:#8c959f;--heat-0:#ebedf0;--heat-1:#ded1f9;--heat-2:#bda4f6;--heat-3:#8b5cf6;--heat-4:#06b6d4;--grad-a:#7c3aed;--grad-b:#4e7fd4;--grad-c:#06b6d4;}@media (prefers-color-scheme:dark){:root{--card:#161b22;--card-2:#0d1117;--border:#30363d;--ink:#e6edf3;--ink-2:#c9d1d9;--muted:#9198a1;--faint:#6e7681;--heat-0:#171b21;--heat-1:#2a1b4d;--heat-2:#4c2a9e;--heat-3:#7c3aed;--heat-4:#06b6d4;}}</style>
+  <style>.pulse{animation:pulse 3.8s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}@media (prefers-reduced-motion:reduce){.pulse{animation:none;opacity:1}}</style>
+  <rect x="0" y="0" width="600" height="330" fill="var(--card)" rx="18" stroke="var(--border)" stroke-width="1" filter="url(#shadow)"/>
+  <text x="32" y="46" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="19" fill="var(--ink)" font-weight="600">月度活跃</text>
+  <text x="568" y="46" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--muted)" text-anchor="end">近 12 个月</text>
+  <rect x="52.67" y="265" width="26" height="3" fill="var(--border)" rx="6"/>
+  <text x="65.67" y="292" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="var(--faint)" text-anchor="middle">11月</text>
+  <rect x="96" y="265" width="26" height="3" fill="var(--border)" rx="6"/>
+  <text x="109" y="292" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="var(--faint)" text-anchor="middle">12月</text>
+  <rect x="139.33" y="265" width="26" height="3" fill="var(--border)" rx="6"/>
+  <text x="152.33" y="292" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="var(--faint)" text-anchor="middle">1月</text>
+  <rect x="182.67" y="265" width="26" height="3" fill="var(--grad-a)" rx="6"/>
+  <text x="195.67" y="256" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="var(--muted)" text-anchor="middle">1</text>
+  <text x="195.67" y="292" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="var(--faint)" text-anchor="middle">2月</text>
+  <rect x="226" y="265" width="26" height="3" fill="var(--border)" rx="6"/>
+  <text x="239" y="292" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="var(--faint)" text-anchor="middle">3月</text>
+  <rect x="269.33" y="265" width="26" height="3" fill="var(--border)" rx="6"/>
+  <text x="282.33" y="292" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="var(--faint)" text-anchor="middle">4月</text>
+  <rect x="312.67" y="265" width="26" height="3" fill="var(--border)" rx="6"/>
+  <text x="325.67" y="292" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="var(--faint)" text-anchor="middle">5月</text>
+  <rect x="356" y="265" width="26" height="3" fill="var(--border)" rx="6"/>
+  <text x="369" y="292" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="var(--faint)" text-anchor="middle">6月</text>
+  <rect x="399.33" y="265" width="26" height="3" fill="var(--border)" rx="6"/>
+  <text x="412.33" y="292" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="var(--faint)" text-anchor="middle">7月</text>
+  <rect x="442.67" y="265" width="26" height="3" fill="var(--border)" rx="6"/>
+  <text x="455.67" y="292" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="var(--faint)" text-anchor="middle">8月</text>
+  <rect x="486" y="220.04" width="26" height="47.96" fill="var(--grad-a)" rx="6"/>
+  <text x="499" y="211.04" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="var(--muted)" text-anchor="middle">112</text>
+  <text x="499" y="292" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="var(--faint)" text-anchor="middle">9月</text>
+  <rect x="529.33" y="92" width="26" height="176" fill="var(--grad-a)" rx="6"/>
+  <text x="542.33" y="83" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="var(--muted)" text-anchor="middle">411</text>
+  <text x="542.33" y="292" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12" fill="var(--faint)" text-anchor="middle">10月</text>
+</svg>

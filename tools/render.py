@@ -1,24 +1,27 @@
 """Render data/profile.json into the SVG cards in assets/.
 
-Every card is drawn twice: once for GitHub's light theme, once for dark.
-Data panels stay transparent so they sit on the page; only the hero is a plate.
+Six cards, each a self-contained SVG. Colours come from CSS custom properties
+defined inside the file (see theme.py), so a single file works in both GitHub
+themes and inside a table cell.
 """
 
 from __future__ import annotations
 
+import datetime as dt
 import json
 import math
-import sys
-from datetime import datetime
 from pathlib import Path
 
-from svgkit import Doc, count, num, truncate, width_of
-from theme import THEMES, language_colour
+from svgkit import Doc, count, truncate, width_of
+from theme import ACCENTS, TOKENS, language_colour
 
 ROOT = Path(__file__).resolve().parents[1]
-W = 1000
-M = 44
-PAD = 24  # inner padding of a readout cell
+
+# card sizes
+BANNER = (1200, 220)
+HALF = (600, 212)
+WIDE = (1200, 250)
+TALL = (600, 330)
 
 
 def load():
@@ -28,207 +31,239 @@ def load():
 
 
 def stamp(iso_value):
-    moment = datetime.strptime(iso_value, "%Y-%m-%dT%H:%M:%SZ")
+    moment = dt.datetime.strptime(iso_value, "%Y-%m-%dT%H:%M:%SZ")
     return moment.strftime("%Y-%m-%d %H:%M UTC")
 
 
-def short_date(iso_value):
-    return iso_value[5:]
+def card(doc, x, y, w, h, radius=18):
+    doc.rect(x, y, w, h, TOKENS["card"], rx=radius, stroke=TOKENS["border"], sw=1, filt="shadow")
 
 
-def panel_title(doc, title, right=None):
-    doc.text(M, 40, title, 20, doc.t["ink"], 600)
-    if right:
-        doc.text(W - M, 41, right, 12.5, doc.t["ink3"], mono=True, anchor="end")
-    doc.line(M, 56, W - M, 56, doc.t["soft"])
+# -- banner -----------------------------------------------------------------
 
+def banner(data, config):
+    w, h = BANNER
+    doc = Doc(w, h)
+    doc.gradient("grad", [(0, TOKENS["grad_a"]), (0.5, TOKENS["grad_b"]), (1, TOKENS["grad_c"])])
+    doc.radial("glow", [(0, "rgba(255,255,255,0.22)"), (1, "rgba(255,255,255,0)")], 0.72, 0.18, 0.55)
+    doc.pattern("dots", '<circle cx="2" cy="2" r="1.7" fill="#ffffff" opacity="0.16"/>', 30, 30)
 
-# -- hero -------------------------------------------------------------------
+    doc.rect(0, 0, w, h, "url(#grad)", rx=22)
+    doc.rect(0, 0, w, h, "url(#glow)", rx=22)
+    doc.rect(0, 0, w, h, "url(#dots)", rx=22)
 
-def hero(theme, data, config):
-    t = theme
-    doc = Doc(W, 240, t, background=t["bg"], frame=True)
+    doc.text(64, 128, config["headline"], 56, "#ffffff", 700, ls="-0.03em")
+    doc.rect(64, 150, 58, 5, "#ffffff", rx=2.5, opacity=0.92)
 
     moment = stamp(data["meta"]["generated_at"])
-    doc.text(W - M, 50, moment, 12.5, t["ink3"], mono=True, anchor="end")
-    doc.circle(W - M - width_of(moment, 12.5, True) - 13, 46, 3.5, t["accent"], cls="pulse")
-
-    doc.text(M, 104, config["headline"], 44, t["ink"], 600, ls="-0.02em")
-    doc.line(M, 120, M + 48, 120, t["accent"], 3, cls="draw", path_length=1)
-    doc.line(M, 150, W - M, 150, t["soft"])
-
-    contributions = data["contributions"]
-    cells = [
-        (count(data["user"]["public_repos"]), "公开仓库", False),
-        (count(contributions["total"]), "近一年贡献", True),
-        (count(contributions["current_streak"]), "当前连续（天）", False),
-        (count(contributions["best_day"]["count"]), "单日峰值", False),
-    ]
-    cell_w = (W - 2 * M) / len(cells)
-    for index, (value, label, accent) in enumerate(cells):
-        x = M + index * cell_w
-        if index:
-            doc.line(x - PAD, 162, x - PAD, 216, t["soft"])
-        doc.text(x, 198, value, 36, t["accent"] if accent else t["ink"], 500, mono=True)
-        doc.text(x, 220, label, 12.5, t["ink3"], mono=True, ls="0.02em")
+    doc.text(w - 56, 72, moment, 14, "#ffffff", mono=True, anchor="end", opacity=0.82)
+    doc.circle(w - 56 - width_of(moment, 14, True) - 14, 67, 4, "#ffffff", opacity=0.9, cls="pulse")
     return doc
 
 
-# -- rhythm -----------------------------------------------------------------
+# -- stats ------------------------------------------------------------------
 
-def rhythm(theme, data, config):
-    t = theme
-    doc = Doc(W, 330, t)
-    window = 42
-    days = data["contributions"]["days"][-window:]
-    panel_title(doc, f"近 {window // 7} 周", "每日贡献 / 7 日均线")
+def stats(data):
+    w, h = HALF
+    doc = Doc(w, h)
+    card(doc, 0, 0, w, h)
 
-    x0, x1 = 64, W - M
-    y0, y1 = 78, 198
-    values = [day["count"] for day in days]
-    peak = max(values) if values else 0
-    top = max(30, math.ceil(peak / 30) * 30)
-
-    pitch = (x1 - x0) / window
-    bar_w = min(13, pitch - 6)
-
-    def y_of(value):
-        return y1 - value / top * (y1 - y0)
-
-    for tick in (0, top / 2, top):
-        y = y_of(tick)
-        doc.line(x0, y, x1, y, t["line"] if tick == 0 else t["soft"])
-        doc.text(x0 - 8, y + 4, str(int(tick)), 11.5, t["ink3"], mono=True, anchor="end")
-
-    for index, day in enumerate(days):
-        value = day["count"]
-        if value <= 0:
-            continue
-        x = x0 + index * pitch + (pitch - bar_w) / 2
-        height = y1 - y_of(value)
-        if value == peak:
-            doc.rect(x, y_of(value), bar_w, height, t["accent"], rx=2, opacity=0.92)
-        else:
-            doc.rect(x, y_of(value), bar_w, height, t["ink3"], rx=2, opacity=0.34)
-
-    all_counts = [day["count"] for day in data["contributions"]["days"]]
-    offset = len(all_counts) - window
-    points = []
-    for index in range(window):
-        tail = all_counts[max(0, offset + index - 6): offset + index + 1]
-        mean = sum(tail) / len(tail) if tail else 0
-        points.append((x0 + index * pitch + pitch / 2, y_of(mean)))
-    doc.path(
-        "M " + " L ".join(f"{num(x)} {num(y)}" for x, y in points),
-        stroke=t["accent"], sw=2.25,
-    )
-
-    peak_index = values.index(peak)
-    peak_x = x0 + peak_index * pitch + pitch / 2
-    doc.circle(peak_x, y_of(peak), 3.5, t["accent"])
-    label = f"{short_date(days[peak_index]['date'])} / {peak} 次"
-    if peak_x < x1 - width_of(label, 12, True) - 20:
-        doc.text(peak_x + 11, y_of(peak) + 4, label, 12, t["ink2"], mono=True)
-    else:
-        doc.text(peak_x - 11, y_of(peak) + 4, label, 12, t["ink2"], mono=True, anchor="end")
-
-    for index in range(0, window, 7):
-        x = x0 + index * pitch + pitch / 2
-        label = f"{int(days[index]['date'][5:7])}/{int(days[index]['date'][8:10])}"
-        doc.text(x, y1 + 22, label, 11.5, t["ink3"], mono=True, anchor="middle")
-
-    doc.line(M, 246, W - M, 246, t["soft"])
+    counts = data.get("counts", {})
     contributions = data["contributions"]
-    facts = [
-        ("活跃天", contributions["active_days"]),
-        ("最长连续（天）", contributions["longest_streak"]),
-        ("活跃日均", contributions["avg_per_active_day"]),
+    tiles = [
+        (data["user"]["public_repos"], "公开仓库"),
+        (contributions["total"], "近一年贡献"),
+        (counts.get("pull_requests", 0), "Pull Request"),
+        (counts.get("issues", 0), "Issue"),
     ]
 
-    cell_w = (W - 2 * M) / len(facts)
-    for index, (label, value) in enumerate(facts):
-        x = M + index * cell_w
-        doc.text(x, 290, count(value), 28, t["ink"], 500, mono=True)
-        doc.text(x, 310, label, 12.5, t["ink3"], mono=True)
-    doc.text(W - M, 310, "近一年 / 365 天", 12, t["ink3"], mono=True, anchor="end")
+    doc.line(300, 34, 300, h - 34, TOKENS["border"], 1)
+    doc.line(32, 116, w - 32, 116, TOKENS["border"], 1)
+
+    for index, (value, label) in enumerate(tiles):
+        column, row = index % 2, index // 2
+        x = 32 + column * 268
+        y = 92 + row * 104
+        doc.circle(x + 5, y - 30, 5, ACCENTS[index])
+        doc.text(x, y, count(value), 38, TOKENS["ink"], 500, mono=True)
+        doc.text(x, y + 24, label, 13, TOKENS["muted"])
     return doc
 
 
 # -- languages --------------------------------------------------------------
 
-def languages(theme, data, config):
-    t = theme
-    doc = Doc(W, 272, t)
-    entries = data.get("primary_languages") or []
-    total = sum(entry["repos"] for entry in entries)
-    panel_title(doc, "语言分布", "按主语言统计 · 不含 fork")
+def languages(data):
+    w, h = HALF
+    doc = Doc(w, h)
+    card(doc, 0, 0, w, h)
 
-    gap = 3
-    usable = (W - 2 * M) - gap * max(0, len(entries) - 1)
-    x = M
+    entries = (data.get("primary_languages") or [])[:6]
+    total = sum(entry["repos"] for entry in entries)
+    doc.text(32, 46, "语言分布", 19, TOKENS["ink"], 600)
+    doc.text(w - 32, 46, f"共 {total} 个仓库", 13, TOKENS["muted"], mono=True, anchor="end")
+
+    left, right = 32, w - 32
+    bar_y, bar_h, gap = 74, 14, 3
+    usable = right - left - gap * max(0, len(entries) - 1)
+    x = left
     for entry in entries:
         width = usable * entry["repos"] / total if total else 0
         if width <= 0:
             continue
-        doc.rect(x, 78, width, 18, language_colour(entry["color"], t), rx=3)
+        doc.rect(x, bar_y, width, bar_h, language_colour(entry["color"]), rx=7)
         x += width + gap
 
-    columns = 2
-    col_w = (W - 2 * M) / columns
     for index, entry in enumerate(entries):
-        column, row = index % columns, index // columns
-        x = M + column * col_w
-        y = 146 + row * 34
-        doc.circle(x + 5, y - 4.5, 4.5, language_colour(entry["color"], t))
-        doc.text(x + 19, y, entry["name"], 15, t["ink"])
-        doc.text(x + col_w - 20, y, f"{entry['pct']:g}%", 14, t["ink2"], mono=True, anchor="end")
-
-    index = len(entries)
-    column, row = index % columns, index // columns
-    doc.text(M + column * col_w + 19, 146 + row * 34, f"共 {total} 个仓库", 12.5, t["ink3"], mono=True)
+        column, row = index % 2, index // 2
+        x = 32 + column * 268
+        y = 128 + row * 32
+        doc.circle(x + 5, y - 5, 5, language_colour(entry["color"]))
+        doc.text(x + 18, y, entry["name"], 15, TOKENS["ink"])
+        doc.text(x + 268 - 34, y, f"{entry['pct']:g}%", 14, TOKENS["muted"], mono=True, anchor="end")
     return doc
 
 
-# -- preview ----------------------------------------------------------------
+# -- heatmap ----------------------------------------------------------------
 
-PREVIEW = """<!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><title>{title}</title>
-<style>
-  :root {{ color-scheme: {scheme}; }}
-  body {{ margin: 0; background: {bg}; color: {fg};
-         font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }}
-  main {{ width: 880px; margin: 0 auto; padding: 32px 0 64px; }}
-  p {{ margin: 0 0 16px; }}
-  img {{ max-width: 100%; display: block; margin: 0 0 24px; }}
-  h1 {{ font-size: 24px; margin: 24px 0 8px; }}
-  .muted {{ color: {muted}; }}
-</style></head>
-<body><main>
-<p>把测量、运维和安全里反复出现的问题做成工具：GNSS 信号分析、
-Windows 控制台、离线维基 U 盘、会自己复现漏洞的 AI 智能体。下载就能跑。</p>
-<p class="muted">这些数字每 6 小时重新算一次，不是截图。</p>
-<img src="../assets/hero-{theme}.svg" width="880" alt="">
-<img src="../assets/rhythm-{theme}.svg" width="880" alt="">
-<img src="../assets/languages-{theme}.svg" width="880" alt="">
-<h1>项目</h1>
-<p>项目列表由 Actions 重写，这里只检查图片。</p>
-</main></body></html>
-"""
+def heatmap(data):
+    w, h = WIDE
+    doc = Doc(w, h)
+    card(doc, 0, 0, w, h)
+
+    days = data["contributions"]["days"]
+    contributions = data["contributions"]
+
+    doc.text(40, 46, "近一年贡献", 19, TOKENS["ink"], 600)
+
+    # legend
+    legend_x = w - 40 - 5 * 14 - 76
+    doc.text(legend_x, 46, "少", 12, TOKENS["faint"], mono=True)
+    for index in range(5):
+        doc.rect(legend_x + 26 + index * 14, 36, 11, 11, f"var(--heat-{index})", rx=3)
+    doc.text(legend_x + 26 + 5 * 14 + 6, 46, "多", 12, TOKENS["faint"], mono=True)
+
+    values = sorted(day["count"] for day in days if day["count"] > 0)
+    if values:
+        def quantile(fraction):
+            return values[min(len(values) - 1, int(fraction * (len(values) - 1)))]
+
+        first, second, third = quantile(0.25), quantile(0.5), quantile(0.75)
+    else:
+        first = second = third = 0
+
+    def level(value):
+        if value <= 0:
+            return 0
+        if value <= first:
+            return 1
+        if value <= second:
+            return 2
+        if value <= third:
+            return 3
+        return 4
+
+    pitch, square = 20, 16
+    grid_x, grid_y = 76, 88
+    first_day = dt.date.fromisoformat(days[0]["date"])
+    grid_start = first_day - dt.timedelta(days=(first_day.weekday() + 1) % 7)
+
+    month_marks = []
+    for index, day in enumerate(days):
+        date = dt.date.fromisoformat(day["date"])
+        column = (date - grid_start).days // 7
+        row = (date.weekday() + 1) % 7
+        if day["count"] > 0:
+            doc.rect(
+                grid_x + column * pitch,
+                grid_y + row * pitch,
+                square, square,
+                f"var(--heat-{level(day['count'])})",
+                rx=4,
+            )
+        if date.day <= 7:
+            month_marks.append((column, date.month))
+
+    for column, month in month_marks:
+        doc.text(grid_x + column * pitch, grid_y - 10, f"{month}月", 12, TOKENS["faint"], mono=True)
+
+    for row, name in ((1, "周一"), (3, "周三"), (5, "周五")):
+        doc.text(40, grid_y + row * pitch + 13, name, 12, TOKENS["faint"], mono=True)
+
+    doc.text(
+        40, h - 22,
+        f"{contributions['total']} 次贡献 · {contributions['active_days']} 天有活动 · "
+        f"最长连续 {contributions['longest_streak']} 天",
+        13, TOKENS["muted"], mono=True,
+    )
+    return doc
 
 
-GALLERY = """<!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><title>gallery {theme}</title>
-<style>
-  html {{ background: {bg}; }}
-  body {{ margin: 0; background: {bg}; }}
-  img {{ display: block; width: 1000px; margin: 0 0 18px; }}
-</style></head>
-<body>
-<img src="../assets/hero-{theme}.svg" width="1000" alt="">
-<img src="../assets/rhythm-{theme}.svg" width="1000" alt="">
-<img src="../assets/languages-{theme}.svg" width="1000" alt="">
-</body></html>
-"""
+# -- repos ------------------------------------------------------------------
+
+def repos(data):
+    w, h = TALL
+    doc = Doc(w, h)
+    card(doc, 0, 0, w, h)
+
+    doc.text(32, 46, "仓库", 19, TOKENS["ink"], 600)
+    doc.text(w - 32, 46, "最近更新", 13, TOKENS["muted"], mono=True, anchor="end")
+
+    entries = data.get("showcase") or []
+    for index, repo in enumerate(entries):
+        y = 92 + index * 40
+        doc.circle(38, y - 5, 5, language_colour(repo.get("primary_language_color")))
+        doc.text(52, y, repo["name"], 15, TOKENS["ink"], 600, mono=True)
+        stars = repo.get("stars", 0)
+        doc.text(w - 32, y, f"★ {stars}", 13, TOKENS["muted"], mono=True, anchor="end")
+        description = truncate(repo.get("description", ""), 12.5, 470)
+        if description:
+            doc.text(52, y + 17, description, 12.5, TOKENS["muted"])
+    return doc
+
+
+# -- monthly ----------------------------------------------------------------
+
+def monthly(data):
+    w, h = TALL
+    doc = Doc(w, h)
+    card(doc, 0, 0, w, h)
+
+    doc.text(32, 46, "月度活跃", 19, TOKENS["ink"], 600)
+    doc.text(w - 32, 46, "近 12 个月", 13, TOKENS["muted"], mono=True, anchor="end")
+
+    months = (data.get("contributions", {}).get("by_month") or [])[-12:]
+    if not months:
+        return doc
+
+    peak = max(month["count"] for month in months) or 1
+    left, right = 44, w - 36
+    baseline, top = 268, 92
+    slot = (right - left) / len(months)
+    bar_w = min(26, slot * 0.62)
+
+    for index, month in enumerate(months):
+        centre = left + slot * (index + 0.5)
+        value = month["count"]
+        height = max(3, value / peak * (baseline - top))
+        colour = TOKENS["grad_a"] if value else TOKENS["border"]
+        doc.rect(centre - bar_w / 2, baseline - height, bar_w, height, colour, rx=6)
+        if value:
+            doc.text(centre, baseline - height - 9, count(value), 12, TOKENS["muted"], mono=True, anchor="middle")
+        label = f"{int(month['month'][5:7])}月"
+        doc.text(centre, baseline + 24, label, 12, TOKENS["faint"], mono=True, anchor="middle")
+    return doc
+
+
+# -- output -----------------------------------------------------------------
+
+CARDS = {
+    "banner": (banner, "yasunosubaru — 公开数据概览"),
+    "stats": (stats, "公开仓库 / 贡献 / PR / Issue"),
+    "languages": (languages, "按主语言统计的仓库分布"),
+    "heatmap": (heatmap, "近一年的每日贡献热力图"),
+    "repos": (repos, "最近更新的仓库"),
+    "monthly": (monthly, "近 12 个月的活跃度"),
+}
 
 
 def render_all():
@@ -236,41 +271,19 @@ def render_all():
     assets = ROOT / "assets"
     assets.mkdir(exist_ok=True)
     written = []
-    for name, theme in THEMES.items():
-        cards = {
-            "hero": (hero(theme, data, config), "yasunosubaru — 公开数据概览"),
-            "rhythm": (rhythm(theme, data, config), "近 6 周每日贡献与 7 日均线"),
-            "languages": (languages(theme, data, config), "按主语言统计的仓库分布"),
-        }
-        for key, (doc, title) in cards.items():
-            path = assets / f"{key}-{name}.svg"
-            with path.open("w", encoding="utf-8", newline="\n") as handle:
-                handle.write(doc.render(title, title))
-            written.append(path)
+    for name, (builder, description) in CARDS.items():
+        doc = builder(data, config) if name == "banner" else builder(data)
+        path = assets / f"{name}.svg"
+        with path.open("w", encoding="utf-8", newline="\n") as handle:
+            handle.write(doc.render(name, description))
+        written.append(path)
     return written, data
-
-
-def preview():
-    folder = ROOT / ".preview"
-    folder.mkdir(exist_ok=True)
-    settings = {
-        "light": ("#ffffff", "#1f2328", "#59636e", "light"),
-        "dark": ("#0d1117", "#e6edf3", "#9198a1", "dark"),
-    }
-    for theme, (bg, fg, muted, scheme) in settings.items():
-        page = PREVIEW.format(title=f"profile {theme}", bg=bg, fg=fg, muted=muted, scheme=scheme, theme=theme)
-        (folder / f"preview-{theme}.html").write_text(page, encoding="utf-8")
-        gallery = GALLERY.format(theme=theme, bg=bg)
-        (folder / f"gallery-{theme}.html").write_text(gallery, encoding="utf-8")
-    return folder
 
 
 def main():
     written, data = render_all()
-    preview()
     print(f"rendered {len(written)} cards for {data['meta']['login']}")
 
 
 if __name__ == "__main__":
     main()
-

@@ -14,8 +14,9 @@ import os
 import re
 import sys
 from pathlib import Path
+from urllib.parse import quote
 
-from github_api import GitHubError, graphql, public_html, rest
+from github_api import GitHubError, graphql, public_html, public_rest, rest
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -288,6 +289,48 @@ def aggregate(repos):
     }
 
 
+def public_counts(login):
+    """PR and issue counters from the *anonymous* search API.
+
+    No token on purpose: a token would also count issues in private repos,
+    which nobody but the owner can see on the profile page.
+    """
+    def total(query):
+        try:
+            data = public_rest(f"/search/issues?q={quote(query)}&per_page=1")
+        except GitHubError as error:
+            warn(f"search {query!r}: {error}")
+            return 0
+        return int(data.get("total_count", 0))
+
+    return {
+        "pull_requests": total(f"author:{login} type:pr"),
+        "issues": total(f"author:{login} type:issue"),
+        "merged_pull_requests": total(f"author:{login} type:pr is:merged"),
+    }
+
+
+def showcase(repos, limit=6, login=None):
+    """The repositories worth showing: described, alive, recently pushed."""
+    useful = [
+        repo for repo in repos
+        if repo.get("description") and not repo["archived"] and repo["name"] != login
+    ]
+    useful.sort(key=lambda repo: repo.get("pushed_at") or "", reverse=True)
+    return [
+        {
+            "name": repo["name"],
+            "description": repo["description"],
+            "url": repo["url"],
+            "stars": repo["stars"],
+            "language": repo["primary_language"],
+            "language_color": repo["primary_language_color"],
+            "pushed_at": repo["pushed_at"],
+        }
+        for repo in useful[:limit]
+    ]
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--login", default=None)
@@ -305,6 +348,7 @@ def main():
     contributions = fetch_contributions(login, start, end)
     totals = aggregate(repos)
     account = fetch_account(login)
+    counts = public_counts(login)
 
     profile = {
         "meta": {
@@ -322,6 +366,8 @@ def main():
         },
         "contributions": contributions,
         "repos": repos,
+        "counts": counts,
+        "showcase": showcase(repos, 6, login),
         "languages": totals["languages"],
         "primary_languages": totals["primary_languages"],
         "language_total_bytes": totals["language_total_bytes"],

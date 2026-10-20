@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="t d">
+  <title id="t">banner</title>
+  <desc id="d">yasunosubaru — 公开数据概览</desc>
+  <style>:root{--card:#ffffff;--card-2:#f6f8fa;--border:#d0d7de;--ink:#1f2328;--ink-2:#424a53;--muted:#59636e;--faint:#8c959f;--heat-0:#ebedf0;--heat-1:#ded1f9;--heat-2:#bda4f6;--heat-3:#8b5cf6;--heat-4:#06b6d4;--grad-a:#7c3aed;--grad-b:#4e7fd4;--grad-c:#06b6d4;}@media (prefers-color-scheme:dark){:root{--card:#161b22;--card-2:#0d1117;--border:#30363d;--ink:#e6edf3;--ink-2:#c9d1d9;--muted:#9198a1;--faint:#6e7681;--heat-0:#171b21;--heat-1:#2a1b4d;--heat-2:#4c2a9e;--heat-3:#7c3aed;--heat-4:#06b6d4;}}</style>
+  <style>.pulse{animation:pulse 3.8s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}@media (prefers-reduced-motion:reduce){.pulse{animation:none;opacity:1}}</style>
+  <defs><linearGradient id="grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="var(--grad-a)"/><stop offset="0.5" stop-color="var(--grad-b)"/><stop offset="1" stop-color="var(--grad-c)"/></linearGradient><radialGradient id="glow" cx="0.72" cy="0.18" r="0.55"><stop offset="0" stop-color="rgba(255,255,255,0.22)"/><stop offset="1" stop-color="rgba(255,255,255,0)"/></radialGradient><pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.7" fill="#ffffff" opacity="0.16"/></pattern></defs>
+  <rect x="0" y="0" width="1200" height="220" fill="url(#grad)" rx="22"/>
+  <rect x="0" y="0" width="1200" height="220" fill="url(#glow)" rx="22"/>
+  <rect x="0" y="0" width="1200" height="220" fill="url(#dots)" rx="22"/>
+  <text x="64" y="128" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="56" fill="#ffffff" font-weight="700" letter-spacing="-0.03em">yasunosubaru</text>
+  <rect x="64" y="150" width="58" height="5" fill="#ffffff" rx="2.5" opacity="0.92"/>
+  <text x="1144" y="72" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" fill="#ffffff" text-anchor="end" opacity="0.82">2026-10-20 13:46 UTC</text>
+  <circle cx="962" cy="67" r="4" fill="#ffffff" opacity="0.9" class="pulse"/>
+</svg>

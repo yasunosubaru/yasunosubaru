@@ -28,9 +28,9 @@ def token():
     return None
 
 
-def _request(url, payload=None, *, api=True, timeout=45):
+def _request(url, payload=None, *, api=True, auth=True, timeout=45):
     headers = {"User-Agent": UA, "Accept": "application/vnd.github+json"}
-    if api:
+    if api and auth:
         tok = token()
         if tok:
             headers["Authorization"] = f"Bearer {tok}"
@@ -78,6 +78,13 @@ def graphql(query, variables):
 
 def rest(path):
     raw = _retry(lambda: _request(API + path))
+    return json.loads(raw.decode("utf-8"))
+
+
+def public_rest(path):
+    """REST without a token: only public resources are visible, which is
+    exactly what a visitor of the profile sees."""
+    raw = _retry(lambda: _request(API + path, auth=False))
     return json.loads(raw.decode("utf-8"))
 
 

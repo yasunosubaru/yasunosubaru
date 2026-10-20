@@ -1,14 +1,15 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" alt="yasunosubaru 的公开数据概览：公开仓库、近一年贡献、当前连续、单日峰值" width="1000">
-</picture>
+<img src="assets/banner.svg" width="100%" alt="yasunosubaru — 公开数据概览">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/rhythm-dark.svg">
-  <img src="assets/rhythm-light.svg" alt="近 6 周的每日贡献柱状图与 7 日均线，峰值日已标注" width="1000">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
-  <img src="assets/languages-light.svg" alt="按主语言统计的仓库分布" width="1000">
-</picture>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top"><img src="assets/stats.svg" width="100%" alt="公开仓库 / 贡献 / PR / Issue"></td>
+    <td width="50%" valign="top"><img src="assets/languages.svg" width="100%" alt="按主语言统计的仓库分布"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/heatmap.svg" width="100%" alt="近一年的每日贡献热力图"></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><img src="assets/repos.svg" width="100%" alt="最近更新的仓库"></td>
+    <td width="50%" valign="top"><img src="assets/monthly.svg" width="100%" alt="近 12 个月的活跃度"></td>
+  </tr>
+</table>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-labelledby="t d">
+  <title id="t">repos</title>
+  <desc id="d">最近更新的仓库</desc>
+  <style>:root{--card:#ffffff;--card-2:#f6f8fa;--border:#d0d7de;--ink:#1f2328;--ink-2:#424a53;--muted:#59636e;--faint:#8c959f;--heat-0:#ebedf0;--heat-1:#ded1f9;--heat-2:#bda4f6;--heat-3:#8b5cf6;--heat-4:#06b6d4;--grad-a:#7c3aed;--grad-b:#4e7fd4;--grad-c:#06b6d4;}@media (prefers-color-scheme:dark){:root{--card:#161b22;--card-2:#0d1117;--border:#30363d;--ink:#e6edf3;--ink-2:#c9d1d9;--muted:#9198a1;--faint:#6e7681;--heat-0:#171b21;--heat-1:#2a1b4d;--heat-2:#4c2a9e;--heat-3:#7c3aed;--heat-4:#06b6d4;}}</style>
+  <style>.pulse{animation:pulse 3.8s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}@media (prefers-reduced-motion:reduce){.pulse{animation:none;opacity:1}}</style>
+  <rect x="0" y="0" width="600" height="330" fill="var(--card)" rx="18" stroke="var(--border)" stroke-width="1" filter="url(#shadow)"/>
+  <text x="32" y="46" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="19" fill="var(--ink)" font-weight="600">仓库</text>
+  <text x="568" y="46" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--muted)" text-anchor="end">最近更新</text>
+  <circle cx="38" cy="87" r="5" fill="var(--faint)"/>
+  <text x="52" y="92" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--ink)" font-weight="600">field-station-agent</text>
+  <text x="568" y="92" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--muted)" text-anchor="end">★ 0</text>
+  <text x="52" y="109" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="12.5" fill="var(--muted)">武汉大学地空学院 2026 大创：多智能体 AI 野外台站管理系统 —— 监测/质控/研判…</text>
+  <circle cx="38" cy="127" r="5" fill="var(--faint)"/>
+  <text x="52" y="132" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--ink)" font-weight="600">wsa-dashboard</text>
+  <text x="568" y="132" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--muted)" text-anchor="end">★ 0</text>
+  <text x="52" y="149" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="12.5" fill="var(--muted)">Windows Subsystem for Android 的桌面控制台：状态 / 应用 / 存储 / 端口 / 计…</text>
+  <circle cx="38" cy="167" r="5" fill="var(--faint)"/>
+  <text x="52" y="172" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--ink)" font-weight="600">YinHuGuard</text>
+  <text x="568" y="172" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--muted)" text-anchor="end">★ 0</text>
+  <text x="52" y="189" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="12.5" fill="var(--muted)">只读的 Windows 银狐（ValleyRAT）木马排查工具：一次扫描七个面，GUI/CLI/…</text>
+  <circle cx="38" cy="207" r="5" fill="var(--faint)"/>
+  <text x="52" y="212" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--ink)" font-weight="600">Strata-Console</text>
+  <text x="568" y="212" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--muted)" text-anchor="end">★ 0</text>
+  <text x="52" y="229" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="12.5" fill="var(--muted)">Desktop console for the local Strata inference engine (Qwen3.8-Flash-Nex…</text>
+  <circle cx="38" cy="247" r="5" fill="var(--faint)"/>
+  <text x="52" y="252" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--ink)" font-weight="600">crowbar</text>
+  <text x="568" y="252" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--muted)" text-anchor="end">★ 0</text>
+  <text x="52" y="269" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="12.5" fill="var(--muted)">Local file force-teardown tool for Windows - diagnose first, tiered delete…</text>
+  <circle cx="38" cy="287" r="5" fill="var(--faint)"/>
+  <text x="52" y="292" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--ink)" font-weight="600">CyberStrike</text>
+  <text x="568" y="292" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--muted)" text-anchor="end">★ 0</text>
+  <text x="52" y="309" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="12.5" fill="var(--muted)">Open-source AI-powered offensive security harness for automated penetr…</text>
+</svg>
