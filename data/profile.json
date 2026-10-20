@@ -1,0 +1,3164 @@
+{
+  "meta": {
+    "login": "yasunosubaru",
+    "generated_at": "2026-10-20T09:30:47Z",
+    "generator": "github-profile-dashboard/1",
+    "repo_source": "graphql",
+    "contributions_source": "github.com public calendar"
+  },
+  "user": {
+    "login": "yasunosubaru",
+    "public_repos": 22,
+    "followers": 0,
+    "created_at": "2026-02-08T15:38:56Z"
+  },
+  "contributions": {
+    "source": "github.com public calendar",
+    "window": {
+      "from": "2025-10-21",
+      "to": "2026-10-20"
+    },
+    "total": 511,
+    "active_days": 22,
+    "avg_per_day": 1.4,
+    "avg_per_active_day": 23.2,
+    "current_streak": 8,
+    "longest_streak": 8,
+    "best_day": {
+      "date": "2026-10-14",
+      "count": 119
+    },
+    "days": [
+      {
+        "date": "2025-10-21",
+        "count": 0
+      },
+      {
+        "date": "2025-10-22",
+        "count": 0
+      },
+      {
+        "date": "2025-10-23",
+        "count": 0
+      },
+      {
+        "date": "2025-10-24",
+        "count": 0
+      },
+      {
+        "date": "2025-10-25",
+        "count": 0
+      },
+      {
+        "date": "2025-10-26",
+        "count": 0
+      },
+      {
+        "date": "2025-10-27",
+        "count": 0
+      },
+      {
+        "date": "2025-10-28",
+        "count": 0
+      },
+      {
+        "date": "2025-10-29",
+        "count": 0
+      },
+      {
+        "date": "2025-10-30",
+        "count": 0
+      },
+      {
+        "date": "2025-10-31",
+        "count": 0
+      },
+      {
+        "date": "2025-11-01",
+        "count": 0
+      },
+      {
+        "date": "2025-11-02",
+        "count": 0
+      },
+      {
+        "date": "2025-11-03",
+        "count": 0
+      },
+      {
+        "date": "2025-11-04",
+        "count": 0
+      },
+      {
+        "date": "2025-11-05",
+        "count": 0
+      },
+      {
+        "date": "2025-11-06",
+        "count": 0
+      },
+      {
+        "date": "2025-11-07",
+        "count": 0
+      },
+      {
+        "date": "2025-11-08",
+        "count": 0
+      },
+      {
+        "date": "2025-11-09",
+        "count": 0
+      },
+      {
+        "date": "2025-11-10",
+        "count": 0
+      },
+      {
+        "date": "2025-11-11",
+        "count": 0
+      },
+      {
+        "date": "2025-11-12",
+        "count": 0
+      },
+      {
+        "date": "2025-11-13",
+        "count": 0
+      },
+      {
+        "date": "2025-11-14",
+        "count": 0
+      },
+      {
+        "date": "2025-11-15",
+        "count": 0
+      },
+      {
+        "date": "2025-11-16",
+        "count": 0
+      },
+      {
+        "date": "2025-11-17",
+        "count": 0
+      },
+      {
+        "date": "2025-11-18",
+        "count": 0
+      },
+      {
+        "date": "2025-11-19",
+        "count": 0
+      },
+      {
+        "date": "2025-11-20",
+        "count": 0
+      },
+      {
+        "date": "2025-11-21",
+        "count": 0
+      },
+      {
+        "date": "2025-11-22",
+        "count": 0
+      },
+      {
+        "date": "2025-11-23",
+        "count": 0
+      },
+      {
+        "date": "2025-11-24",
+        "count": 0
+      },
+      {
+        "date": "2025-11-25",
+        "count": 0
+      },
+      {
+        "date": "2025-11-26",
+        "count": 0
+      },
+      {
+        "date": "2025-11-27",
+        "count": 0
+      },
+      {
+        "date": "2025-11-28",
+        "count": 0
+      },
+      {
+        "date": "2025-11-29",
+        "count": 0
+      },
+      {
+        "date": "2025-11-30",
+        "count": 0
+      },
+      {
+        "date": "2025-12-01",
+        "count": 0
+      },
+      {
+        "date": "2025-12-02",
+        "count": 0
+      },
+      {
+        "date": "2025-12-03",
+        "count": 0
+      },
+      {
+        "date": "2025-12-04",
+        "count": 0
+      },
+      {
+        "date": "2025-12-05",
+        "count": 0
+      },
+      {
+        "date": "2025-12-06",
+        "count": 0
+      },
+      {
+        "date": "2025-12-07",
+        "count": 0
+      },
+      {
+        "date": "2025-12-08",
+        "count": 0
+      },
+      {
+        "date": "2025-12-09",
+        "count": 0
+      },
+      {
+        "date": "2025-12-10",
+        "count": 0
+      },
+      {
+        "date": "2025-12-11",
+        "count": 0
+      },
+      {
+        "date": "2025-12-12",
+        "count": 0
+      },
+      {
+        "date": "2025-12-13",
+        "count": 0
+      },
+      {
+        "date": "2025-12-14",
+        "count": 0
+      },
+      {
+        "date": "2025-12-15",
+        "count": 0
+      },
+      {
+        "date": "2025-12-16",
+        "count": 0
+      },
+      {
+        "date": "2025-12-17",
+        "count": 0
+      },
+      {
+        "date": "2025-12-18",
+        "count": 0
+      },
+      {
+        "date": "2025-12-19",
+        "count": 0
+      },
+      {
+        "date": "2025-12-20",
+        "count": 0
+      },
+      {
+        "date": "2025-12-21",
+        "count": 0
+      },
+      {
+        "date": "2025-12-22",
+        "count": 0
+      },
+      {
+        "date": "2025-12-23",
+        "count": 0
+      },
+      {
+        "date": "2025-12-24",
+        "count": 0
+      },
+      {
+        "date": "2025-12-25",
+        "count": 0
+      },
+      {
+        "date": "2025-12-26",
+        "count": 0
+      },
+      {
+        "date": "2025-12-27",
+        "count": 0
+      },
+      {
+        "date": "2025-12-28",
+        "count": 0
+      },
+      {
+        "date": "2025-12-29",
+        "count": 0
+      },
+      {
+        "date": "2025-12-30",
+        "count": 0
+      },
+      {
+        "date": "2025-12-31",
+        "count": 0
+      },
+      {
+        "date": "2026-01-01",
+        "count": 0
+      },
+      {
+        "date": "2026-01-02",
+        "count": 0
+      },
+      {
+        "date": "2026-01-03",
+        "count": 0
+      },
+      {
+        "date": "2026-01-04",
+        "count": 0
+      },
+      {
+        "date": "2026-01-05",
+        "count": 0
+      },
+      {
+        "date": "2026-01-06",
+        "count": 0
+      },
+      {
+        "date": "2026-01-07",
+        "count": 0
+      },
+      {
+        "date": "2026-01-08",
+        "count": 0
+      },
+      {
+        "date": "2026-01-09",
+        "count": 0
+      },
+      {
+        "date": "2026-01-10",
+        "count": 0
+      },
+      {
+        "date": "2026-01-11",
+        "count": 0
+      },
+      {
+        "date": "2026-01-12",
+        "count": 0
+      },
+      {
+        "date": "2026-01-13",
+        "count": 0
+      },
+      {
+        "date": "2026-01-14",
+        "count": 0
+      },
+      {
+        "date": "2026-01-15",
+        "count": 0
+      },
+      {
+        "date": "2026-01-16",
+        "count": 0
+      },
+      {
+        "date": "2026-01-17",
+        "count": 0
+      },
+      {
+        "date": "2026-01-18",
+        "count": 0
+      },
+      {
+        "date": "2026-01-19",
+        "count": 0
+      },
+      {
+        "date": "2026-01-20",
+        "count": 0
+      },
+      {
+        "date": "2026-01-21",
+        "count": 0
+      },
+      {
+        "date": "2026-01-22",
+        "count": 0
+      },
+      {
+        "date": "2026-01-23",
+        "count": 0
+      },
+      {
+        "date": "2026-01-24",
+        "count": 0
+      },
+      {
+        "date": "2026-01-25",
+        "count": 0
+      },
+      {
+        "date": "2026-01-26",
+        "count": 0
+      },
+      {
+        "date": "2026-01-27",
+        "count": 0
+      },
+      {
+        "date": "2026-01-28",
+        "count": 0
+      },
+      {
+        "date": "2026-01-29",
+        "count": 0
+      },
+      {
+        "date": "2026-01-30",
+        "count": 0
+      },
+      {
+        "date": "2026-01-31",
+        "count": 0
+      },
+      {
+        "date": "2026-02-01",
+        "count": 0
+      },
+      {
+        "date": "2026-02-02",
+        "count": 0
+      },
+      {
+        "date": "2026-02-03",
+        "count": 0
+      },
+      {
+        "date": "2026-02-04",
+        "count": 0
+      },
+      {
+        "date": "2026-02-05",
+        "count": 0
+      },
+      {
+        "date": "2026-02-06",
+        "count": 0
+      },
+      {
+        "date": "2026-02-07",
+        "count": 0
+      },
+      {
+        "date": "2026-02-08",
+        "count": 1
+      },
+      {
+        "date": "2026-02-09",
+        "count": 0
+      },
+      {
+        "date": "2026-02-10",
+        "count": 0
+      },
+      {
+        "date": "2026-02-11",
+        "count": 0
+      },
+      {
+        "date": "2026-02-12",
+        "count": 0
+      },
+      {
+        "date": "2026-02-13",
+        "count": 0
+      },
+      {
+        "date": "2026-02-14",
+        "count": 0
+      },
+      {
+        "date": "2026-02-15",
+        "count": 0
+      },
+      {
+        "date": "2026-02-16",
+        "count": 0
+      },
+      {
+        "date": "2026-02-17",
+        "count": 0
+      },
+      {
+        "date": "2026-02-18",
+        "count": 0
+      },
+      {
+        "date": "2026-02-19",
+        "count": 0
+      },
+      {
+        "date": "2026-02-20",
+        "count": 0
+      },
+      {
+        "date": "2026-02-21",
+        "count": 0
+      },
+      {
+        "date": "2026-02-22",
+        "count": 0
+      },
+      {
+        "date": "2026-02-23",
+        "count": 0
+      },
+      {
+        "date": "2026-02-24",
+        "count": 0
+      },
+      {
+        "date": "2026-02-25",
+        "count": 0
+      },
+      {
+        "date": "2026-02-26",
+        "count": 0
+      },
+      {
+        "date": "2026-02-27",
+        "count": 0
+      },
+      {
+        "date": "2026-02-28",
+        "count": 0
+      },
+      {
+        "date": "2026-03-01",
+        "count": 0
+      },
+      {
+        "date": "2026-03-02",
+        "count": 0
+      },
+      {
+        "date": "2026-03-03",
+        "count": 0
+      },
+      {
+        "date": "2026-03-04",
+        "count": 0
+      },
+      {
+        "date": "2026-03-05",
+        "count": 0
+      },
+      {
+        "date": "2026-03-06",
+        "count": 0
+      },
+      {
+        "date": "2026-03-07",
+        "count": 0
+      },
+      {
+        "date": "2026-03-08",
+        "count": 0
+      },
+      {
+        "date": "2026-03-09",
+        "count": 0
+      },
+      {
+        "date": "2026-03-10",
+        "count": 0
+      },
+      {
+        "date": "2026-03-11",
+        "count": 0
+      },
+      {
+        "date": "2026-03-12",
+        "count": 0
+      },
+      {
+        "date": "2026-03-13",
+        "count": 0
+      },
+      {
+        "date": "2026-03-14",
+        "count": 0
+      },
+      {
+        "date": "2026-03-15",
+        "count": 0
+      },
+      {
+        "date": "2026-03-16",
+        "count": 0
+      },
+      {
+        "date": "2026-03-17",
+        "count": 0
+      },
+      {
+        "date": "2026-03-18",
+        "count": 0
+      },
+      {
+        "date": "2026-03-19",
+        "count": 0
+      },
+      {
+        "date": "2026-03-20",
+        "count": 0
+      },
+      {
+        "date": "2026-03-21",
+        "count": 0
+      },
+      {
+        "date": "2026-03-22",
+        "count": 0
+      },
+      {
+        "date": "2026-03-23",
+        "count": 0
+      },
+      {
+        "date": "2026-03-24",
+        "count": 0
+      },
+      {
+        "date": "2026-03-25",
+        "count": 0
+      },
+      {
+        "date": "2026-03-26",
+        "count": 0
+      },
+      {
+        "date": "2026-03-27",
+        "count": 0
+      },
+      {
+        "date": "2026-03-28",
+        "count": 0
+      },
+      {
+        "date": "2026-03-29",
+        "count": 0
+      },
+      {
+        "date": "2026-03-30",
+        "count": 0
+      },
+      {
+        "date": "2026-03-31",
+        "count": 0
+      },
+      {
+        "date": "2026-04-01",
+        "count": 0
+      },
+      {
+        "date": "2026-04-02",
+        "count": 0
+      },
+      {
+        "date": "2026-04-03",
+        "count": 0
+      },
+      {
+        "date": "2026-04-04",
+        "count": 0
+      },
+      {
+        "date": "2026-04-05",
+        "count": 0
+      },
+      {
+        "date": "2026-04-06",
+        "count": 0
+      },
+      {
+        "date": "2026-04-07",
+        "count": 0
+      },
+      {
+        "date": "2026-04-08",
+        "count": 0
+      },
+      {
+        "date": "2026-04-09",
+        "count": 0
+      },
+      {
+        "date": "2026-04-10",
+        "count": 0
+      },
+      {
+        "date": "2026-04-11",
+        "count": 0
+      },
+      {
+        "date": "2026-04-12",
+        "count": 0
+      },
+      {
+        "date": "2026-04-13",
+        "count": 0
+      },
+      {
+        "date": "2026-04-14",
+        "count": 0
+      },
+      {
+        "date": "2026-04-15",
+        "count": 0
+      },
+      {
+        "date": "2026-04-16",
+        "count": 0
+      },
+      {
+        "date": "2026-04-17",
+        "count": 0
+      },
+      {
+        "date": "2026-04-18",
+        "count": 0
+      },
+      {
+        "date": "2026-04-19",
+        "count": 0
+      },
+      {
+        "date": "2026-04-20",
+        "count": 0
+      },
+      {
+        "date": "2026-04-21",
+        "count": 0
+      },
+      {
+        "date": "2026-04-22",
+        "count": 0
+      },
+      {
+        "date": "2026-04-23",
+        "count": 0
+      },
+      {
+        "date": "2026-04-24",
+        "count": 0
+      },
+      {
+        "date": "2026-04-25",
+        "count": 0
+      },
+      {
+        "date": "2026-04-26",
+        "count": 0
+      },
+      {
+        "date": "2026-04-27",
+        "count": 0
+      },
+      {
+        "date": "2026-04-28",
+        "count": 0
+      },
+      {
+        "date": "2026-04-29",
+        "count": 0
+      },
+      {
+        "date": "2026-04-30",
+        "count": 0
+      },
+      {
+        "date": "2026-05-01",
+        "count": 0
+      },
+      {
+        "date": "2026-05-02",
+        "count": 0
+      },
+      {
+        "date": "2026-05-03",
+        "count": 0
+      },
+      {
+        "date": "2026-05-04",
+        "count": 0
+      },
+      {
+        "date": "2026-05-05",
+        "count": 0
+      },
+      {
+        "date": "2026-05-06",
+        "count": 0
+      },
+      {
+        "date": "2026-05-07",
+        "count": 0
+      },
+      {
+        "date": "2026-05-08",
+        "count": 0
+      },
+      {
+        "date": "2026-05-09",
+        "count": 0
+      },
+      {
+        "date": "2026-05-10",
+        "count": 0
+      },
+      {
+        "date": "2026-05-11",
+        "count": 0
+      },
+      {
+        "date": "2026-05-12",
+        "count": 0
+      },
+      {
+        "date": "2026-05-13",
+        "count": 0
+      },
+      {
+        "date": "2026-05-14",
+        "count": 0
+      },
+      {
+        "date": "2026-05-15",
+        "count": 0
+      },
+      {
+        "date": "2026-05-16",
+        "count": 0
+      },
+      {
+        "date": "2026-05-17",
+        "count": 0
+      },
+      {
+        "date": "2026-05-18",
+        "count": 0
+      },
+      {
+        "date": "2026-05-19",
+        "count": 0
+      },
+      {
+        "date": "2026-05-20",
+        "count": 0
+      },
+      {
+        "date": "2026-05-21",
+        "count": 0
+      },
+      {
+        "date": "2026-05-22",
+        "count": 0
+      },
+      {
+        "date": "2026-05-23",
+        "count": 0
+      },
+      {
+        "date": "2026-05-24",
+        "count": 0
+      },
+      {
+        "date": "2026-05-25",
+        "count": 0
+      },
+      {
+        "date": "2026-05-26",
+        "count": 0
+      },
+      {
+        "date": "2026-05-27",
+        "count": 0
+      },
+      {
+        "date": "2026-05-28",
+        "count": 0
+      },
+      {
+        "date": "2026-05-29",
+        "count": 0
+      },
+      {
+        "date": "2026-05-30",
+        "count": 0
+      },
+      {
+        "date": "2026-05-31",
+        "count": 0
+      },
+      {
+        "date": "2026-06-01",
+        "count": 0
+      },
+      {
+        "date": "2026-06-02",
+        "count": 0
+      },
+      {
+        "date": "2026-06-03",
+        "count": 0
+      },
+      {
+        "date": "2026-06-04",
+        "count": 0
+      },
+      {
+        "date": "2026-06-05",
+        "count": 0
+      },
+      {
+        "date": "2026-06-06",
+        "count": 0
+      },
+      {
+        "date": "2026-06-07",
+        "count": 0
+      },
+      {
+        "date": "2026-06-08",
+        "count": 0
+      },
+      {
+        "date": "2026-06-09",
+        "count": 0
+      },
+      {
+        "date": "2026-06-10",
+        "count": 0
+      },
+      {
+        "date": "2026-06-11",
+        "count": 0
+      },
+      {
+        "date": "2026-06-12",
+        "count": 0
+      },
+      {
+        "date": "2026-06-13",
+        "count": 0
+      },
+      {
+        "date": "2026-06-14",
+        "count": 0
+      },
+      {
+        "date": "2026-06-15",
+        "count": 0
+      },
+      {
+        "date": "2026-06-16",
+        "count": 0
+      },
+      {
+        "date": "2026-06-17",
+        "count": 0
+      },
+      {
+        "date": "2026-06-18",
+        "count": 0
+      },
+      {
+        "date": "2026-06-19",
+        "count": 0
+      },
+      {
+        "date": "2026-06-20",
+        "count": 0
+      },
+      {
+        "date": "2026-06-21",
+        "count": 0
+      },
+      {
+        "date": "2026-06-22",
+        "count": 0
+      },
+      {
+        "date": "2026-06-23",
+        "count": 0
+      },
+      {
+        "date": "2026-06-24",
+        "count": 0
+      },
+      {
+        "date": "2026-06-25",
+        "count": 0
+      },
+      {
+        "date": "2026-06-26",
+        "count": 0
+      },
+      {
+        "date": "2026-06-27",
+        "count": 0
+      },
+      {
+        "date": "2026-06-28",
+        "count": 0
+      },
+      {
+        "date": "2026-06-29",
+        "count": 0
+      },
+      {
+        "date": "2026-06-30",
+        "count": 0
+      },
+      {
+        "date": "2026-07-01",
+        "count": 0
+      },
+      {
+        "date": "2026-07-02",
+        "count": 0
+      },
+      {
+        "date": "2026-07-03",
+        "count": 0
+      },
+      {
+        "date": "2026-07-04",
+        "count": 0
+      },
+      {
+        "date": "2026-07-05",
+        "count": 0
+      },
+      {
+        "date": "2026-07-06",
+        "count": 0
+      },
+      {
+        "date": "2026-07-07",
+        "count": 0
+      },
+      {
+        "date": "2026-07-08",
+        "count": 0
+      },
+      {
+        "date": "2026-07-09",
+        "count": 0
+      },
+      {
+        "date": "2026-07-10",
+        "count": 0
+      },
+      {
+        "date": "2026-07-11",
+        "count": 0
+      },
+      {
+        "date": "2026-07-12",
+        "count": 0
+      },
+      {
+        "date": "2026-07-13",
+        "count": 0
+      },
+      {
+        "date": "2026-07-14",
+        "count": 0
+      },
+      {
+        "date": "2026-07-15",
+        "count": 0
+      },
+      {
+        "date": "2026-07-16",
+        "count": 0
+      },
+      {
+        "date": "2026-07-17",
+        "count": 0
+      },
+      {
+        "date": "2026-07-18",
+        "count": 0
+      },
+      {
+        "date": "2026-07-19",
+        "count": 0
+      },
+      {
+        "date": "2026-07-20",
+        "count": 0
+      },
+      {
+        "date": "2026-07-21",
+        "count": 0
+      },
+      {
+        "date": "2026-07-22",
+        "count": 0
+      },
+      {
+        "date": "2026-07-23",
+        "count": 0
+      },
+      {
+        "date": "2026-07-24",
+        "count": 0
+      },
+      {
+        "date": "2026-07-25",
+        "count": 0
+      },
+      {
+        "date": "2026-07-26",
+        "count": 0
+      },
+      {
+        "date": "2026-07-27",
+        "count": 0
+      },
+      {
+        "date": "2026-07-28",
+        "count": 0
+      },
+      {
+        "date": "2026-07-29",
+        "count": 0
+      },
+      {
+        "date": "2026-07-30",
+        "count": 0
+      },
+      {
+        "date": "2026-07-31",
+        "count": 0
+      },
+      {
+        "date": "2026-08-01",
+        "count": 0
+      },
+      {
+        "date": "2026-08-02",
+        "count": 0
+      },
+      {
+        "date": "2026-08-03",
+        "count": 0
+      },
+      {
+        "date": "2026-08-04",
+        "count": 0
+      },
+      {
+        "date": "2026-08-05",
+        "count": 0
+      },
+      {
+        "date": "2026-08-06",
+        "count": 0
+      },
+      {
+        "date": "2026-08-07",
+        "count": 0
+      },
+      {
+        "date": "2026-08-08",
+        "count": 0
+      },
+      {
+        "date": "2026-08-09",
+        "count": 0
+      },
+      {
+        "date": "2026-08-10",
+        "count": 0
+      },
+      {
+        "date": "2026-08-11",
+        "count": 0
+      },
+      {
+        "date": "2026-08-12",
+        "count": 0
+      },
+      {
+        "date": "2026-08-13",
+        "count": 0
+      },
+      {
+        "date": "2026-08-14",
+        "count": 0
+      },
+      {
+        "date": "2026-08-15",
+        "count": 0
+      },
+      {
+        "date": "2026-08-16",
+        "count": 0
+      },
+      {
+        "date": "2026-08-17",
+        "count": 0
+      },
+      {
+        "date": "2026-08-18",
+        "count": 0
+      },
+      {
+        "date": "2026-08-19",
+        "count": 0
+      },
+      {
+        "date": "2026-08-20",
+        "count": 0
+      },
+      {
+        "date": "2026-08-21",
+        "count": 0
+      },
+      {
+        "date": "2026-08-22",
+        "count": 0
+      },
+      {
+        "date": "2026-08-23",
+        "count": 0
+      },
+      {
+        "date": "2026-08-24",
+        "count": 0
+      },
+      {
+        "date": "2026-08-25",
+        "count": 0
+      },
+      {
+        "date": "2026-08-26",
+        "count": 0
+      },
+      {
+        "date": "2026-08-27",
+        "count": 0
+      },
+      {
+        "date": "2026-08-28",
+        "count": 0
+      },
+      {
+        "date": "2026-08-29",
+        "count": 0
+      },
+      {
+        "date": "2026-08-30",
+        "count": 0
+      },
+      {
+        "date": "2026-08-31",
+        "count": 0
+      },
+      {
+        "date": "2026-09-01",
+        "count": 0
+      },
+      {
+        "date": "2026-09-02",
+        "count": 0
+      },
+      {
+        "date": "2026-09-03",
+        "count": 0
+      },
+      {
+        "date": "2026-09-04",
+        "count": 0
+      },
+      {
+        "date": "2026-09-05",
+        "count": 0
+      },
+      {
+        "date": "2026-09-06",
+        "count": 0
+      },
+      {
+        "date": "2026-09-07",
+        "count": 0
+      },
+      {
+        "date": "2026-09-08",
+        "count": 0
+      },
+      {
+        "date": "2026-09-09",
+        "count": 0
+      },
+      {
+        "date": "2026-09-10",
+        "count": 0
+      },
+      {
+        "date": "2026-09-11",
+        "count": 0
+      },
+      {
+        "date": "2026-09-12",
+        "count": 0
+      },
+      {
+        "date": "2026-09-13",
+        "count": 0
+      },
+      {
+        "date": "2026-09-14",
+        "count": 0
+      },
+      {
+        "date": "2026-09-15",
+        "count": 0
+      },
+      {
+        "date": "2026-09-16",
+        "count": 0
+      },
+      {
+        "date": "2026-09-17",
+        "count": 0
+      },
+      {
+        "date": "2026-09-18",
+        "count": 0
+      },
+      {
+        "date": "2026-09-19",
+        "count": 0
+      },
+      {
+        "date": "2026-09-20",
+        "count": 0
+      },
+      {
+        "date": "2026-09-21",
+        "count": 0
+      },
+      {
+        "date": "2026-09-22",
+        "count": 0
+      },
+      {
+        "date": "2026-09-23",
+        "count": 0
+      },
+      {
+        "date": "2026-09-24",
+        "count": 0
+      },
+      {
+        "date": "2026-09-25",
+        "count": 21
+      },
+      {
+        "date": "2026-09-26",
+        "count": 27
+      },
+      {
+        "date": "2026-09-27",
+        "count": 50
+      },
+      {
+        "date": "2026-09-28",
+        "count": 8
+      },
+      {
+        "date": "2026-09-29",
+        "count": 4
+      },
+      {
+        "date": "2026-09-30",
+        "count": 2
+      },
+      {
+        "date": "2026-10-01",
+        "count": 0
+      },
+      {
+        "date": "2026-10-02",
+        "count": 2
+      },
+      {
+        "date": "2026-10-03",
+        "count": 0
+      },
+      {
+        "date": "2026-10-04",
+        "count": 11
+      },
+      {
+        "date": "2026-10-05",
+        "count": 2
+      },
+      {
+        "date": "2026-10-06",
+        "count": 1
+      },
+      {
+        "date": "2026-10-07",
+        "count": 0
+      },
+      {
+        "date": "2026-10-08",
+        "count": 6
+      },
+      {
+        "date": "2026-10-09",
+        "count": 0
+      },
+      {
+        "date": "2026-10-10",
+        "count": 11
+      },
+      {
+        "date": "2026-10-11",
+        "count": 14
+      },
+      {
+        "date": "2026-10-12",
+        "count": 0
+      },
+      {
+        "date": "2026-10-13",
+        "count": 42
+      },
+      {
+        "date": "2026-10-14",
+        "count": 119
+      },
+      {
+        "date": "2026-10-15",
+        "count": 41
+      },
+      {
+        "date": "2026-10-16",
+        "count": 49
+      },
+      {
+        "date": "2026-10-17",
+        "count": 52
+      },
+      {
+        "date": "2026-10-18",
+        "count": 17
+      },
+      {
+        "date": "2026-10-19",
+        "count": 25
+      },
+      {
+        "date": "2026-10-20",
+        "count": 6
+      }
+    ],
+    "by_month": [
+      {
+        "month": "2025-10",
+        "count": 0
+      },
+      {
+        "month": "2025-11",
+        "count": 0
+      },
+      {
+        "month": "2025-12",
+        "count": 0
+      },
+      {
+        "month": "2026-01",
+        "count": 0
+      },
+      {
+        "month": "2026-02",
+        "count": 1
+      },
+      {
+        "month": "2026-03",
+        "count": 0
+      },
+      {
+        "month": "2026-04",
+        "count": 0
+      },
+      {
+        "month": "2026-05",
+        "count": 0
+      },
+      {
+        "month": "2026-06",
+        "count": 0
+      },
+      {
+        "month": "2026-07",
+        "count": 0
+      },
+      {
+        "month": "2026-08",
+        "count": 0
+      },
+      {
+        "month": "2026-09",
+        "count": 112
+      },
+      {
+        "month": "2026-10",
+        "count": 398
+      }
+    ]
+  },
+  "repos": [
+    {
+      "name": "field-station-agent",
+      "description": "武汉大学地空学院 2026 大创：多智能体 AI 野外台站管理系统 —— 监测/质控/研判/派单/归档闭环。LangGraph 运行时 · MCP 工具接口 · 规则裁决 + 大模型归因。公开脱敏仓库",
+      "url": "https://github.com/yasunosubaru/field-station-agent",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-13T04:46:39Z",
+      "pushed_at": "2026-10-20T09:25:03Z",
+      "archived": false,
+      "primary_language": "Python",
+      "primary_language_color": "#3572A5",
+      "topics": [
+        "aiops",
+        "field-station",
+        "gnss",
+        "langgraph",
+        "llm-agent",
+        "mcp",
+        "model-context-protocol",
+        "multi-agent",
+        "observatory",
+        "python",
+        "remote-monitoring",
+        "space-weather"
+      ],
+      "languages": [
+        {
+          "name": "Python",
+          "bytes": 806362,
+          "color": "#3572A5"
+        },
+        {
+          "name": "HTML",
+          "bytes": 4905,
+          "color": "#e34c26"
+        }
+      ]
+    },
+    {
+      "name": "yasunosubaru",
+      "description": "GitHub profile: a self-updating live dashboard rendered by GitHub Actions",
+      "url": "https://github.com/yasunosubaru/yasunosubaru",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-20T09:01:55Z",
+      "pushed_at": "2026-10-20T09:22:45Z",
+      "archived": false,
+      "primary_language": "Python",
+      "primary_language_color": "#3572A5",
+      "topics": [],
+      "languages": [
+        {
+          "name": "Python",
+          "bytes": 38617,
+          "color": "#3572A5"
+        },
+        {
+          "name": "PowerShell",
+          "bytes": 620,
+          "color": "#012456"
+        }
+      ]
+    },
+    {
+      "name": "wsa-dashboard",
+      "description": "Windows Subsystem for Android 的桌面控制台：状态 / 应用 / 存储 / 端口 / 计划任务一个界面管完。Rust + Slint，单 exe，GPL-3.0。公开脱敏仓库",
+      "url": "https://github.com/yasunosubaru/wsa-dashboard",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-17T06:23:02Z",
+      "pushed_at": "2026-10-19T11:11:29Z",
+      "archived": false,
+      "primary_language": "Rust",
+      "primary_language_color": "#dea584",
+      "topics": [
+        "adb",
+        "android",
+        "desktop-app",
+        "port-forwarding",
+        "rust",
+        "slint",
+        "task-scheduler",
+        "windows-11",
+        "windows-subsystem-for-android",
+        "wsa"
+      ],
+      "languages": [
+        {
+          "name": "Rust",
+          "bytes": 938691,
+          "color": "#dea584"
+        },
+        {
+          "name": "Slint",
+          "bytes": 419419,
+          "color": "#2379F4"
+        },
+        {
+          "name": "PowerShell",
+          "bytes": 79771,
+          "color": "#012456"
+        },
+        {
+          "name": "Batchfile",
+          "bytes": 48883,
+          "color": "#C1F12E"
+        },
+        {
+          "name": "Python",
+          "bytes": 7174,
+          "color": "#3572A5"
+        }
+      ]
+    },
+    {
+      "name": "YinHuGuard",
+      "description": "只读的 Windows 银狐（ValleyRAT）木马排查工具：一次扫描七个面，GUI/CLI/日志/报告四渠道同源输出；不修改系统、无网络请求。Read-only Windows triage for Silver Fox (ValleyRAT) — 7 surfaces, GUI + CLI, no system changes.",
+      "url": "https://github.com/yasunosubaru/YinHuGuard",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-16T15:02:36Z",
+      "pushed_at": "2026-10-19T04:38:21Z",
+      "archived": false,
+      "primary_language": "Dart",
+      "primary_language_color": "#00B4AB",
+      "topics": [
+        "cpp",
+        "flutter",
+        "incident-response",
+        "malware-analysis",
+        "security",
+        "security-tools",
+        "silverfox",
+        "triage",
+        "windows",
+        "valleyrat"
+      ],
+      "languages": [
+        {
+          "name": "Dart",
+          "bytes": 214475,
+          "color": "#00B4AB"
+        },
+        {
+          "name": "C++",
+          "bytes": 178898,
+          "color": "#f34b7d"
+        },
+        {
+          "name": "CMake",
+          "bytes": 14701,
+          "color": "#DA3434"
+        },
+        {
+          "name": "PowerShell",
+          "bytes": 7194,
+          "color": "#012456"
+        },
+        {
+          "name": "C",
+          "bytes": 734,
+          "color": "#555555"
+        }
+      ]
+    },
+    {
+      "name": "Strata-Console",
+      "description": "Desktop console for the local Strata inference engine (Qwen3.8-Flash-Next IQ2_XS): chat, live monitor, context switching, model lifecycle, task protocol",
+      "url": "https://github.com/yasunosubaru/Strata-Console",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-16T15:28:27Z",
+      "pushed_at": "2026-10-16T15:50:42Z",
+      "archived": false,
+      "primary_language": "TypeScript",
+      "primary_language_color": "#3178c6",
+      "topics": [],
+      "languages": [
+        {
+          "name": "TypeScript",
+          "bytes": 124979,
+          "color": "#3178c6"
+        },
+        {
+          "name": "CSS",
+          "bytes": 35769,
+          "color": "#663399"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 15946,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "PowerShell",
+          "bytes": 5599,
+          "color": "#012456"
+        },
+        {
+          "name": "HTML",
+          "bytes": 452,
+          "color": "#e34c26"
+        }
+      ]
+    },
+    {
+      "name": "crowbar",
+      "description": "Local file force-teardown tool for Windows - diagnose first, tiered delete (L1/L2/L3), LOTO confirm tag, portable single exe",
+      "url": "https://github.com/yasunosubaru/crowbar",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-10T13:23:25Z",
+      "pushed_at": "2026-10-10T13:24:40Z",
+      "archived": false,
+      "primary_language": "TypeScript",
+      "primary_language_color": "#3178c6",
+      "topics": [],
+      "languages": [
+        {
+          "name": "TypeScript",
+          "bytes": 26666,
+          "color": "#3178c6"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 18338,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "SCSS",
+          "bytes": 17122,
+          "color": "#c6538c"
+        },
+        {
+          "name": "PowerShell",
+          "bytes": 13361,
+          "color": "#012456"
+        },
+        {
+          "name": "HTML",
+          "bytes": 12301,
+          "color": "#e34c26"
+        }
+      ]
+    },
+    {
+      "name": "CyberStrike",
+      "description": "Open-source AI-powered offensive security harness for automated penetration testing.",
+      "url": "https://github.com/yasunosubaru/CyberStrike",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-08T14:32:27Z",
+      "pushed_at": "2026-10-08T14:46:41Z",
+      "archived": false,
+      "primary_language": "TypeScript",
+      "primary_language_color": "#3178c6",
+      "topics": [],
+      "languages": [
+        {
+          "name": "TypeScript",
+          "bytes": 12891725,
+          "color": "#3178c6"
+        },
+        {
+          "name": "Python",
+          "bytes": 476404,
+          "color": "#3572A5"
+        },
+        {
+          "name": "CSS",
+          "bytes": 428266,
+          "color": "#663399"
+        },
+        {
+          "name": "Shell",
+          "bytes": 37448,
+          "color": "#89e051"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 18012,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "Nix",
+          "bytes": 5871,
+          "color": "#7e7eff"
+        },
+        {
+          "name": "HTML",
+          "bytes": 2015,
+          "color": "#e34c26"
+        },
+        {
+          "name": "Dockerfile",
+          "bytes": 1706,
+          "color": "#384d54"
+        }
+      ]
+    },
+    {
+      "name": "pentest-ai",
+      "description": "Open-source AI pentester that proves every finding. Machine oracles re-run each exploit; verified bugs ship a proof capsule you can replay yourself.",
+      "url": "https://github.com/yasunosubaru/pentest-ai",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-08T14:34:10Z",
+      "pushed_at": "2026-10-08T14:45:37Z",
+      "archived": false,
+      "primary_language": "Python",
+      "primary_language_color": "#3572A5",
+      "topics": [],
+      "languages": [
+        {
+          "name": "Python",
+          "bytes": 4232051,
+          "color": "#3572A5"
+        },
+        {
+          "name": "Jinja",
+          "bytes": 21534,
+          "color": "#a52a22"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 18182,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "CSS",
+          "bytes": 13939,
+          "color": "#663399"
+        },
+        {
+          "name": "Shell",
+          "bytes": 13565,
+          "color": "#89e051"
+        },
+        {
+          "name": "Dockerfile",
+          "bytes": 4587,
+          "color": "#384d54"
+        },
+        {
+          "name": "HTML",
+          "bytes": 3227,
+          "color": "#e34c26"
+        },
+        {
+          "name": "Tape",
+          "bytes": 2146,
+          "color": null
+        }
+      ]
+    },
+    {
+      "name": "VERDICT",
+      "description": "The autonomous pentester that proves its findings — AI-driven, evidence-first, behind-login.",
+      "url": "https://github.com/yasunosubaru/VERDICT",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-08T14:33:38Z",
+      "pushed_at": "2026-10-08T14:44:17Z",
+      "archived": false,
+      "primary_language": "TypeScript",
+      "primary_language_color": "#3178c6",
+      "topics": [],
+      "languages": [
+        {
+          "name": "TypeScript",
+          "bytes": 2087842,
+          "color": "#3178c6"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 59288,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "Java",
+          "bytes": 45512,
+          "color": "#b07219"
+        },
+        {
+          "name": "CSS",
+          "bytes": 41044,
+          "color": "#663399"
+        },
+        {
+          "name": "HTML",
+          "bytes": 702,
+          "color": "#e34c26"
+        }
+      ]
+    },
+    {
+      "name": "HackSynth",
+      "description": "LLM Agent and Evaluation Framework for Autonomous Penetration Testing",
+      "url": "https://github.com/yasunosubaru/HackSynth",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-08T14:33:58Z",
+      "pushed_at": "2026-10-08T14:34:06Z",
+      "archived": false,
+      "primary_language": "Python",
+      "primary_language_color": "#3572A5",
+      "topics": [],
+      "languages": [
+        {
+          "name": "Python",
+          "bytes": 131020,
+          "color": "#3572A5"
+        },
+        {
+          "name": "Dockerfile",
+          "bytes": 705,
+          "color": "#384d54"
+        },
+        {
+          "name": "Shell",
+          "bytes": 392,
+          "color": "#89e051"
+        }
+      ]
+    },
+    {
+      "name": "launchpad",
+      "description": "macOS Launchpad 风格的 Windows 启动器：全屏纯黑、大图标网格、拼音搜索、手势节流翻页",
+      "url": "https://github.com/yasunosubaru/launchpad",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-02T15:18:54Z",
+      "pushed_at": "2026-10-08T07:37:23Z",
+      "archived": false,
+      "primary_language": "Python",
+      "primary_language_color": "#3572A5",
+      "topics": [],
+      "languages": [
+        {
+          "name": "Python",
+          "bytes": 1173116,
+          "color": "#3572A5"
+        }
+      ]
+    },
+    {
+      "name": "DumpSearch",
+      "description": "Windows 桌面工具：按内容找出全盘重复文件，清理时默认移入回收站（可撤销），必须先预览再确认。WinUI 3 + Python 双前端。",
+      "url": "https://github.com/yasunosubaru/DumpSearch",
+      "stars": 1,
+      "forks": 0,
+      "created_at": "2026-10-04T13:09:27Z",
+      "pushed_at": "2026-10-04T13:09:48Z",
+      "archived": false,
+      "primary_language": "Python",
+      "primary_language_color": "#3572A5",
+      "topics": [
+        "windows",
+        "duplicate-files",
+        "csharp",
+        "winui3",
+        "python",
+        "disk-cleanup",
+        "dotnet"
+      ],
+      "languages": [
+        {
+          "name": "Python",
+          "bytes": 453263,
+          "color": "#3572A5"
+        },
+        {
+          "name": "C#",
+          "bytes": 188861,
+          "color": "#7355dd"
+        },
+        {
+          "name": "Batchfile",
+          "bytes": 2227,
+          "color": "#C1F12E"
+        }
+      ]
+    },
+    {
+      "name": "SessionLauncher",
+      "description": "A Windows launcher that reads an opencode conversation catalog, groups conversations into projects, and opens them in OpenChamber.",
+      "url": "https://github.com/yasunosubaru/SessionLauncher",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-04T10:24:14Z",
+      "pushed_at": "2026-10-04T12:02:49Z",
+      "archived": false,
+      "primary_language": "C#",
+      "primary_language_color": "#7355dd",
+      "topics": [],
+      "languages": [
+        {
+          "name": "C#",
+          "bytes": 322293,
+          "color": "#7355dd"
+        },
+        {
+          "name": "PowerShell",
+          "bytes": 56677,
+          "color": "#012456"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 40704,
+          "color": "#f1e05a"
+        }
+      ]
+    },
+    {
+      "name": "agent-swarm-skill",
+      "description": "给 AI 编码助手的 Skill 包：把 agent-swarm 部署成本地 AI 小团队，并交付桌面 GUI 控制台 + 可连续对话的聊天窗口",
+      "url": "https://github.com/yasunosubaru/agent-swarm-skill",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-09-25T13:11:06Z",
+      "pushed_at": "2026-09-30T03:15:35Z",
+      "archived": false,
+      "primary_language": "PowerShell",
+      "primary_language_color": "#012456",
+      "topics": [],
+      "languages": [
+        {
+          "name": "PowerShell",
+          "bytes": 16895,
+          "color": "#012456"
+        }
+      ]
+    },
+    {
+      "name": "agent-swarm-desktop",
+      "description": "把 agent-swarm 变成双击即用的 Windows 桌面应用：深色 GUI 控制台 + 可连续对话、运行中可插话的聊天窗口",
+      "url": "https://github.com/yasunosubaru/agent-swarm-desktop",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-09-25T12:55:21Z",
+      "pushed_at": "2026-09-30T03:15:32Z",
+      "archived": false,
+      "primary_language": "PowerShell",
+      "primary_language_color": "#012456",
+      "topics": [],
+      "languages": [
+        {
+          "name": "PowerShell",
+          "bytes": 68638,
+          "color": "#012456"
+        },
+        {
+          "name": "HTML",
+          "bytes": 28680,
+          "color": "#e34c26"
+        },
+        {
+          "name": "Dockerfile",
+          "bytes": 7005,
+          "color": "#384d54"
+        },
+        {
+          "name": "Python",
+          "bytes": 2859,
+          "color": "#3572A5"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 369,
+          "color": "#f1e05a"
+        }
+      ]
+    },
+    {
+      "name": "credbridge",
+      "description": "Offline credential extractor & password-manager format converter. Scans folders, pulls credentials out of text/PDF/Office/e-mail/screenshots (OCR+QR), human review, export to 9 password managers.",
+      "url": "https://github.com/yasunosubaru/credbridge",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-09-28T13:16:36Z",
+      "pushed_at": "2026-09-28T13:45:45Z",
+      "archived": false,
+      "primary_language": "Python",
+      "primary_language_color": "#3572A5",
+      "topics": [
+        "1password",
+        "bitwarden",
+        "credentials",
+        "csv-export",
+        "data-migration",
+        "desktop-app",
+        "keepassxc",
+        "lastpass",
+        "local-first",
+        "ocr",
+        "offline",
+        "otp",
+        "password-manager",
+        "privacy",
+        "pyside6",
+        "qr-decoder",
+        "screenshot",
+        "totp",
+        "windows"
+      ],
+      "languages": [
+        {
+          "name": "Python",
+          "bytes": 469373,
+          "color": "#3572A5"
+        },
+        {
+          "name": "HTML",
+          "bytes": 10696,
+          "color": "#e34c26"
+        },
+        {
+          "name": "Batchfile",
+          "bytes": 719,
+          "color": "#C1F12E"
+        }
+      ]
+    },
+    {
+      "name": "ham-win",
+      "description": "Ham for Windows: WHU campus assistant (WPF + WinUI 3) - course schedule, score + GPA, library, weather, campus bus",
+      "url": "https://github.com/yasunosubaru/ham-win",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-09-27T12:07:49Z",
+      "pushed_at": "2026-09-27T15:16:48Z",
+      "archived": false,
+      "primary_language": "C#",
+      "primary_language_color": "#7355dd",
+      "topics": [],
+      "languages": [
+        {
+          "name": "C#",
+          "bytes": 804834,
+          "color": "#7355dd"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 13910,
+          "color": "#f1e05a"
+        }
+      ]
+    },
+    {
+      "name": "ham-ios",
+      "description": "Standalone Ham RN build: an independent iOS/Android app derived from whu-ham/ham-rn",
+      "url": "https://github.com/yasunosubaru/ham-ios",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-09-26T06:51:59Z",
+      "pushed_at": "2026-09-27T11:14:30Z",
+      "archived": false,
+      "primary_language": "TypeScript",
+      "primary_language_color": "#3178c6",
+      "topics": [],
+      "languages": [
+        {
+          "name": "TypeScript",
+          "bytes": 597151,
+          "color": "#3178c6"
+        },
+        {
+          "name": "Kotlin",
+          "bytes": 18168,
+          "color": "#A97BFF"
+        },
+        {
+          "name": "Objective-C++",
+          "bytes": 14186,
+          "color": "#6866fb"
+        },
+        {
+          "name": "Shell",
+          "bytes": 12364,
+          "color": "#89e051"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 11937,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "Objective-C",
+          "bytes": 4762,
+          "color": "#438eff"
+        },
+        {
+          "name": "HTML",
+          "bytes": 4755,
+          "color": "#e34c26"
+        },
+        {
+          "name": "Swift",
+          "bytes": 4574,
+          "color": "#F05138"
+        },
+        {
+          "name": "Ruby",
+          "bytes": 4269,
+          "color": "#701516"
+        }
+      ]
+    },
+    {
+      "name": "kiwix-usb-portable",
+      "description": "免安装 / 离线 / 跨平台的 Kiwix 离线维基 U 盘便携服务器 · Zero-install offline Wikipedia server on a USB drive",
+      "url": "https://github.com/yasunosubaru/kiwix-usb-portable",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-09-25T13:22:59Z",
+      "pushed_at": "2026-09-27T06:50:56Z",
+      "archived": false,
+      "primary_language": "C#",
+      "primary_language_color": "#7355dd",
+      "topics": [
+        "fnos",
+        "kiwix",
+        "linux",
+        "nas",
+        "offline",
+        "openzim",
+        "portable",
+        "python",
+        "self-hosted",
+        "synology",
+        "tkinter",
+        "usb",
+        "wikipedia",
+        "windows"
+      ],
+      "languages": [
+        {
+          "name": "C#",
+          "bytes": 116820,
+          "color": "#7355dd"
+        },
+        {
+          "name": "Python",
+          "bytes": 66874,
+          "color": "#3572A5"
+        },
+        {
+          "name": "PowerShell",
+          "bytes": 52026,
+          "color": "#012456"
+        },
+        {
+          "name": "Shell",
+          "bytes": 10491,
+          "color": "#89e051"
+        },
+        {
+          "name": "C",
+          "bytes": 5374,
+          "color": "#555555"
+        },
+        {
+          "name": "Batchfile",
+          "bytes": 2613,
+          "color": "#C1F12E"
+        }
+      ]
+    },
+    {
+      "name": "gnss-tec-analyzer",
+      "description": "GNSS 电离层 TEC 分析工具 · WinUI 3 (C#/.NET 8) 重写版",
+      "url": "https://github.com/yasunosubaru/gnss-tec-analyzer",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-09-26T17:03:53Z",
+      "pushed_at": "2026-09-26T17:28:36Z",
+      "archived": false,
+      "primary_language": "C#",
+      "primary_language_color": "#7355dd",
+      "topics": [],
+      "languages": [
+        {
+          "name": "C#",
+          "bytes": 44482,
+          "color": "#7355dd"
+        },
+        {
+          "name": "Python",
+          "bytes": 16638,
+          "color": "#3572A5"
+        },
+        {
+          "name": "PowerShell",
+          "bytes": 6193,
+          "color": "#012456"
+        }
+      ]
+    },
+    {
+      "name": "bfn-signal-analyzer",
+      "description": "BFN 接收机 C/NO（载噪比）信号分析仪 · WinUI 3 (C#/.NET 8) 重写版",
+      "url": "https://github.com/yasunosubaru/bfn-signal-analyzer",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-09-26T16:46:20Z",
+      "pushed_at": "2026-09-26T17:28:34Z",
+      "archived": false,
+      "primary_language": "C#",
+      "primary_language_color": "#7355dd",
+      "topics": [],
+      "languages": [
+        {
+          "name": "C#",
+          "bytes": 54544,
+          "color": "#7355dd"
+        },
+        {
+          "name": "Python",
+          "bytes": 27323,
+          "color": "#3572A5"
+        },
+        {
+          "name": "PowerShell",
+          "bytes": 5700,
+          "color": "#012456"
+        }
+      ]
+    },
+    {
+      "name": "ProgramDock",
+      "description": "A fast Windows program launcher and searchable application dock.",
+      "url": "https://github.com/yasunosubaru/ProgramDock",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-09-25T11:50:39Z",
+      "pushed_at": "2026-09-25T11:50:52Z",
+      "archived": false,
+      "primary_language": "C#",
+      "primary_language_color": "#7355dd",
+      "topics": [
+        "app-launcher",
+        "developer-tools",
+        "dotnet",
+        "launcher",
+        "windows",
+        "wpf"
+      ],
+      "languages": [
+        {
+          "name": "C#",
+          "bytes": 123318,
+          "color": "#7355dd"
+        },
+        {
+          "name": "PowerShell",
+          "bytes": 6360,
+          "color": "#012456"
+        }
+      ]
+    }
+  ],
+  "featured": [
+    {
+      "name": "field-station-agent",
+      "description": "武汉大学地空学院 2026 大创：多智能体 AI 野外台站管理系统 —— 监测/质控/研判/派单/归档闭环。LangGraph 运行时 · MCP 工具接口 · 规则裁决 + 大模型归因。公开脱敏仓库",
+      "url": "https://github.com/yasunosubaru/field-station-agent",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-13T04:46:39Z",
+      "pushed_at": "2026-10-20T09:25:03Z",
+      "archived": false,
+      "primary_language": "Python",
+      "primary_language_color": "#3572A5",
+      "topics": [
+        "aiops",
+        "field-station",
+        "gnss",
+        "langgraph",
+        "llm-agent",
+        "mcp",
+        "model-context-protocol",
+        "multi-agent",
+        "observatory",
+        "python",
+        "remote-monitoring",
+        "space-weather"
+      ],
+      "languages": [
+        {
+          "name": "Python",
+          "bytes": 806362,
+          "color": "#3572A5"
+        },
+        {
+          "name": "HTML",
+          "bytes": 4905,
+          "color": "#e34c26"
+        }
+      ]
+    },
+    {
+      "name": "wsa-dashboard",
+      "description": "Windows Subsystem for Android 的桌面控制台：状态 / 应用 / 存储 / 端口 / 计划任务一个界面管完。Rust + Slint，单 exe，GPL-3.0。公开脱敏仓库",
+      "url": "https://github.com/yasunosubaru/wsa-dashboard",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-17T06:23:02Z",
+      "pushed_at": "2026-10-19T11:11:29Z",
+      "archived": false,
+      "primary_language": "Rust",
+      "primary_language_color": "#dea584",
+      "topics": [
+        "adb",
+        "android",
+        "desktop-app",
+        "port-forwarding",
+        "rust",
+        "slint",
+        "task-scheduler",
+        "windows-11",
+        "windows-subsystem-for-android",
+        "wsa"
+      ],
+      "languages": [
+        {
+          "name": "Rust",
+          "bytes": 938691,
+          "color": "#dea584"
+        },
+        {
+          "name": "Slint",
+          "bytes": 419419,
+          "color": "#2379F4"
+        },
+        {
+          "name": "PowerShell",
+          "bytes": 79771,
+          "color": "#012456"
+        },
+        {
+          "name": "Batchfile",
+          "bytes": 48883,
+          "color": "#C1F12E"
+        },
+        {
+          "name": "Python",
+          "bytes": 7174,
+          "color": "#3572A5"
+        }
+      ]
+    },
+    {
+      "name": "YinHuGuard",
+      "description": "只读的 Windows 银狐（ValleyRAT）木马排查工具：一次扫描七个面，GUI/CLI/日志/报告四渠道同源输出；不修改系统、无网络请求。Read-only Windows triage for Silver Fox (ValleyRAT) — 7 surfaces, GUI + CLI, no system changes.",
+      "url": "https://github.com/yasunosubaru/YinHuGuard",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-16T15:02:36Z",
+      "pushed_at": "2026-10-19T04:38:21Z",
+      "archived": false,
+      "primary_language": "Dart",
+      "primary_language_color": "#00B4AB",
+      "topics": [
+        "cpp",
+        "flutter",
+        "incident-response",
+        "malware-analysis",
+        "security",
+        "security-tools",
+        "silverfox",
+        "triage",
+        "windows",
+        "valleyrat"
+      ],
+      "languages": [
+        {
+          "name": "Dart",
+          "bytes": 214475,
+          "color": "#00B4AB"
+        },
+        {
+          "name": "C++",
+          "bytes": 178898,
+          "color": "#f34b7d"
+        },
+        {
+          "name": "CMake",
+          "bytes": 14701,
+          "color": "#DA3434"
+        },
+        {
+          "name": "PowerShell",
+          "bytes": 7194,
+          "color": "#012456"
+        },
+        {
+          "name": "C",
+          "bytes": 734,
+          "color": "#555555"
+        }
+      ]
+    },
+    {
+      "name": "Strata-Console",
+      "description": "Desktop console for the local Strata inference engine (Qwen3.8-Flash-Next IQ2_XS): chat, live monitor, context switching, model lifecycle, task protocol",
+      "url": "https://github.com/yasunosubaru/Strata-Console",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-16T15:28:27Z",
+      "pushed_at": "2026-10-16T15:50:42Z",
+      "archived": false,
+      "primary_language": "TypeScript",
+      "primary_language_color": "#3178c6",
+      "topics": [],
+      "languages": [
+        {
+          "name": "TypeScript",
+          "bytes": 124979,
+          "color": "#3178c6"
+        },
+        {
+          "name": "CSS",
+          "bytes": 35769,
+          "color": "#663399"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 15946,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "PowerShell",
+          "bytes": 5599,
+          "color": "#012456"
+        },
+        {
+          "name": "HTML",
+          "bytes": 452,
+          "color": "#e34c26"
+        }
+      ]
+    },
+    {
+      "name": "crowbar",
+      "description": "Local file force-teardown tool for Windows - diagnose first, tiered delete (L1/L2/L3), LOTO confirm tag, portable single exe",
+      "url": "https://github.com/yasunosubaru/crowbar",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-10T13:23:25Z",
+      "pushed_at": "2026-10-10T13:24:40Z",
+      "archived": false,
+      "primary_language": "TypeScript",
+      "primary_language_color": "#3178c6",
+      "topics": [],
+      "languages": [
+        {
+          "name": "TypeScript",
+          "bytes": 26666,
+          "color": "#3178c6"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 18338,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "SCSS",
+          "bytes": 17122,
+          "color": "#c6538c"
+        },
+        {
+          "name": "PowerShell",
+          "bytes": 13361,
+          "color": "#012456"
+        },
+        {
+          "name": "HTML",
+          "bytes": 12301,
+          "color": "#e34c26"
+        }
+      ]
+    },
+    {
+      "name": "CyberStrike",
+      "description": "Open-source AI-powered offensive security harness for automated penetration testing.",
+      "url": "https://github.com/yasunosubaru/CyberStrike",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-08T14:32:27Z",
+      "pushed_at": "2026-10-08T14:46:41Z",
+      "archived": false,
+      "primary_language": "TypeScript",
+      "primary_language_color": "#3178c6",
+      "topics": [],
+      "languages": [
+        {
+          "name": "TypeScript",
+          "bytes": 12891725,
+          "color": "#3178c6"
+        },
+        {
+          "name": "Python",
+          "bytes": 476404,
+          "color": "#3572A5"
+        },
+        {
+          "name": "CSS",
+          "bytes": 428266,
+          "color": "#663399"
+        },
+        {
+          "name": "Shell",
+          "bytes": 37448,
+          "color": "#89e051"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 18012,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "Nix",
+          "bytes": 5871,
+          "color": "#7e7eff"
+        },
+        {
+          "name": "HTML",
+          "bytes": 2015,
+          "color": "#e34c26"
+        },
+        {
+          "name": "Dockerfile",
+          "bytes": 1706,
+          "color": "#384d54"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "TypeScript",
+      "bytes": 15728363,
+      "color": "#3178c6",
+      "pct": 55.3
+    },
+    {
+      "name": "Python",
+      "bytes": 7901074,
+      "color": "#3572A5",
+      "pct": 27.8
+    },
+    {
+      "name": "C#",
+      "bytes": 1655152,
+      "color": "#7355dd",
+      "pct": 5.8
+    },
+    {
+      "name": "Rust",
+      "bytes": 938691,
+      "color": "#dea584",
+      "pct": 3.3
+    },
+    {
+      "name": "CSS",
+      "bytes": 519018,
+      "color": "#663399",
+      "pct": 1.8
+    },
+    {
+      "name": "Slint",
+      "bytes": 419419,
+      "color": "#2379F4",
+      "pct": 1.5
+    },
+    {
+      "name": "PowerShell",
+      "bytes": 319034,
+      "color": "#012456",
+      "pct": 1.1
+    },
+    {
+      "name": "Dart",
+      "bytes": 214475,
+      "color": "#00B4AB",
+      "pct": 0.8
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 196686,
+      "color": "#f1e05a",
+      "pct": 0.7
+    },
+    {
+      "name": "C++",
+      "bytes": 178898,
+      "color": "#f34b7d",
+      "pct": 0.6
+    },
+    {
+      "name": "Shell",
+      "bytes": 74260,
+      "color": "#89e051",
+      "pct": 0.3
+    },
+    {
+      "name": "HTML",
+      "bytes": 67733,
+      "color": "#e34c26",
+      "pct": 0.2
+    },
+    {
+      "name": "Batchfile",
+      "bytes": 54442,
+      "color": "#C1F12E",
+      "pct": 0.2
+    },
+    {
+      "name": "Java",
+      "bytes": 45512,
+      "color": "#b07219",
+      "pct": 0.2
+    },
+    {
+      "name": "Jinja",
+      "bytes": 21534,
+      "color": "#a52a22",
+      "pct": 0.1
+    },
+    {
+      "name": "Kotlin",
+      "bytes": 18168,
+      "color": "#A97BFF",
+      "pct": 0.1
+    },
+    {
+      "name": "SCSS",
+      "bytes": 17122,
+      "color": "#c6538c",
+      "pct": 0.1
+    },
+    {
+      "name": "CMake",
+      "bytes": 14701,
+      "color": "#DA3434",
+      "pct": 0.1
+    },
+    {
+      "name": "Objective-C++",
+      "bytes": 14186,
+      "color": "#6866fb",
+      "pct": 0.0
+    },
+    {
+      "name": "Dockerfile",
+      "bytes": 14003,
+      "color": "#384d54",
+      "pct": 0.0
+    },
+    {
+      "name": "C",
+      "bytes": 6108,
+      "color": "#555555",
+      "pct": 0.0
+    },
+    {
+      "name": "Nix",
+      "bytes": 5871,
+      "color": "#7e7eff",
+      "pct": 0.0
+    },
+    {
+      "name": "Objective-C",
+      "bytes": 4762,
+      "color": "#438eff",
+      "pct": 0.0
+    },
+    {
+      "name": "Swift",
+      "bytes": 4574,
+      "color": "#F05138",
+      "pct": 0.0
+    },
+    {
+      "name": "Ruby",
+      "bytes": 4269,
+      "color": "#701516",
+      "pct": 0.0
+    },
+    {
+      "name": "Tape",
+      "bytes": 2146,
+      "color": null,
+      "pct": 0.0
+    }
+  ],
+  "primary_languages": [
+    {
+      "name": "Python",
+      "repos": 7,
+      "color": "#3572A5",
+      "pct": 31.8
+    },
+    {
+      "name": "C#",
+      "repos": 6,
+      "color": "#7355dd",
+      "pct": 27.3
+    },
+    {
+      "name": "TypeScript",
+      "repos": 5,
+      "color": "#3178c6",
+      "pct": 22.7
+    },
+    {
+      "name": "PowerShell",
+      "repos": 2,
+      "color": "#012456",
+      "pct": 9.1
+    },
+    {
+      "name": "Dart",
+      "repos": 1,
+      "color": "#00B4AB",
+      "pct": 4.5
+    },
+    {
+      "name": "Rust",
+      "repos": 1,
+      "color": "#dea584",
+      "pct": 4.5
+    }
+  ],
+  "language_total_bytes": 28440201,
+  "topics": [
+    {
+      "name": "windows",
+      "count": 5
+    },
+    {
+      "name": "python",
+      "count": 3
+    },
+    {
+      "name": "desktop-app",
+      "count": 2
+    },
+    {
+      "name": "dotnet",
+      "count": 2
+    },
+    {
+      "name": "offline",
+      "count": 2
+    },
+    {
+      "name": "1password",
+      "count": 1
+    },
+    {
+      "name": "adb",
+      "count": 1
+    },
+    {
+      "name": "aiops",
+      "count": 1
+    },
+    {
+      "name": "android",
+      "count": 1
+    },
+    {
+      "name": "app-launcher",
+      "count": 1
+    },
+    {
+      "name": "bitwarden",
+      "count": 1
+    },
+    {
+      "name": "cpp",
+      "count": 1
+    },
+    {
+      "name": "credentials",
+      "count": 1
+    },
+    {
+      "name": "csharp",
+      "count": 1
+    },
+    {
+      "name": "csv-export",
+      "count": 1
+    },
+    {
+      "name": "data-migration",
+      "count": 1
+    },
+    {
+      "name": "developer-tools",
+      "count": 1
+    },
+    {
+      "name": "disk-cleanup",
+      "count": 1
+    },
+    {
+      "name": "duplicate-files",
+      "count": 1
+    },
+    {
+      "name": "field-station",
+      "count": 1
+    },
+    {
+      "name": "flutter",
+      "count": 1
+    },
+    {
+      "name": "fnos",
+      "count": 1
+    },
+    {
+      "name": "gnss",
+      "count": 1
+    },
+    {
+      "name": "incident-response",
+      "count": 1
+    },
+    {
+      "name": "keepassxc",
+      "count": 1
+    },
+    {
+      "name": "kiwix",
+      "count": 1
+    },
+    {
+      "name": "langgraph",
+      "count": 1
+    },
+    {
+      "name": "lastpass",
+      "count": 1
+    },
+    {
+      "name": "launcher",
+      "count": 1
+    },
+    {
+      "name": "linux",
+      "count": 1
+    },
+    {
+      "name": "llm-agent",
+      "count": 1
+    },
+    {
+      "name": "local-first",
+      "count": 1
+    },
+    {
+      "name": "malware-analysis",
+      "count": 1
+    },
+    {
+      "name": "mcp",
+      "count": 1
+    },
+    {
+      "name": "model-context-protocol",
+      "count": 1
+    },
+    {
+      "name": "multi-agent",
+      "count": 1
+    },
+    {
+      "name": "nas",
+      "count": 1
+    },
+    {
+      "name": "observatory",
+      "count": 1
+    },
+    {
+      "name": "ocr",
+      "count": 1
+    },
+    {
+      "name": "openzim",
+      "count": 1
+    },
+    {
+      "name": "otp",
+      "count": 1
+    },
+    {
+      "name": "password-manager",
+      "count": 1
+    },
+    {
+      "name": "port-forwarding",
+      "count": 1
+    },
+    {
+      "name": "portable",
+      "count": 1
+    },
+    {
+      "name": "privacy",
+      "count": 1
+    },
+    {
+      "name": "pyside6",
+      "count": 1
+    },
+    {
+      "name": "qr-decoder",
+      "count": 1
+    },
+    {
+      "name": "remote-monitoring",
+      "count": 1
+    },
+    {
+      "name": "rust",
+      "count": 1
+    },
+    {
+      "name": "screenshot",
+      "count": 1
+    },
+    {
+      "name": "security",
+      "count": 1
+    },
+    {
+      "name": "security-tools",
+      "count": 1
+    },
+    {
+      "name": "self-hosted",
+      "count": 1
+    },
+    {
+      "name": "silverfox",
+      "count": 1
+    },
+    {
+      "name": "slint",
+      "count": 1
+    },
+    {
+      "name": "space-weather",
+      "count": 1
+    },
+    {
+      "name": "synology",
+      "count": 1
+    },
+    {
+      "name": "task-scheduler",
+      "count": 1
+    },
+    {
+      "name": "tkinter",
+      "count": 1
+    },
+    {
+      "name": "totp",
+      "count": 1
+    },
+    {
+      "name": "triage",
+      "count": 1
+    },
+    {
+      "name": "usb",
+      "count": 1
+    },
+    {
+      "name": "valleyrat",
+      "count": 1
+    },
+    {
+      "name": "wikipedia",
+      "count": 1
+    },
+    {
+      "name": "windows-11",
+      "count": 1
+    },
+    {
+      "name": "windows-subsystem-for-android",
+      "count": 1
+    },
+    {
+      "name": "winui3",
+      "count": 1
+    },
+    {
+      "name": "wpf",
+      "count": 1
+    },
+    {
+      "name": "wsa",
+      "count": 1
+    }
+  ],
+  "stars": 1,
+  "forks": 0
+}
