@@ -6,7 +6,7 @@
   <rect x="0" y="0" width="1000" height="248" fill="#F6F8F9"/>
   <rect x="0.5" y="0.5" width="999" height="247" fill="none" rx="4" stroke="#D7E0E5" stroke-width="1"/>
   <text x="44" y="64" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#66787F" letter-spacing="0.06em">武汉大学地空学院</text>
-  <text x="956" y="64" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#66787F" text-anchor="end">2026-10-20 10:27 UTC</text>
+  <text x="956" y="64" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#66787F" text-anchor="end">2026-10-20 10:33 UTC</text>
   <circle cx="793" cy="60" r="3.5" fill="#A96D12" class="pulse"/>
   <text x="44" y="116" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="44" fill="#101A21" font-weight="600" letter-spacing="-0.02em">yasunosubaru</text>
   <line x1="44" y1="132" x2="92" y2="132" stroke="#A96D12" stroke-width="3" class="draw" pathLength="1"/>
@@ -14,7 +14,7 @@
   <text x="44" y="208" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="36" fill="#101A21" font-weight="500">22</text>
   <text x="44" y="230" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#66787F" letter-spacing="0.02em">公开仓库</text>
   <line x1="248" y1="176" x2="248" y2="226" stroke="#E6EDF0" stroke-width="1"/>
-  <text x="272" y="208" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="36" fill="#A96D12" font-weight="500">512</text>
+  <text x="272" y="208" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="36" fill="#A96D12" font-weight="500">513</text>
   <text x="272" y="230" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#66787F" letter-spacing="0.02em">近一年贡献</text>
   <line x1="476" y1="176" x2="476" y2="226" stroke="#E6EDF0" stroke-width="1"/>
   <text x="500" y="208" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="36" fill="#101A21" font-weight="500">8</text>
