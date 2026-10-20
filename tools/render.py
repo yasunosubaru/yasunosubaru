@@ -47,16 +47,15 @@ def panel_title(doc, title, right=None):
 
 def hero(theme, data, config):
     t = theme
-    doc = Doc(W, 248, t, background=t["bg"], frame=True)
-    doc.text(M, 64, config["kicker"], 12.5, t["ink3"], mono=True, ls="0.06em")
+    doc = Doc(W, 240, t, background=t["bg"], frame=True)
 
     moment = stamp(data["meta"]["generated_at"])
-    doc.text(W - M, 64, moment, 12.5, t["ink3"], mono=True, anchor="end")
-    doc.circle(W - M - width_of(moment, 12.5, True) - 13, 60, 3.5, t["accent"], cls="pulse")
+    doc.text(W - M, 50, moment, 12.5, t["ink3"], mono=True, anchor="end")
+    doc.circle(W - M - width_of(moment, 12.5, True) - 13, 46, 3.5, t["accent"], cls="pulse")
 
-    doc.text(M, 116, config["headline"], 44, t["ink"], 600, ls="-0.02em")
-    doc.line(M, 132, M + 48, 132, t["accent"], 3, cls="draw", path_length=1)
-    doc.line(M, 164, W - M, 164, t["soft"])
+    doc.text(M, 104, config["headline"], 44, t["ink"], 600, ls="-0.02em")
+    doc.line(M, 120, M + 48, 120, t["accent"], 3, cls="draw", path_length=1)
+    doc.line(M, 150, W - M, 150, t["soft"])
 
     contributions = data["contributions"]
     cells = [
@@ -69,9 +68,9 @@ def hero(theme, data, config):
     for index, (value, label, accent) in enumerate(cells):
         x = M + index * cell_w
         if index:
-            doc.line(x - PAD, 176, x - PAD, 226, t["soft"])
-        doc.text(x, 208, value, 36, t["accent"] if accent else t["ink"], 500, mono=True)
-        doc.text(x, 230, label, 12.5, t["ink3"], mono=True, ls="0.02em")
+            doc.line(x - PAD, 162, x - PAD, 216, t["soft"])
+        doc.text(x, 198, value, 36, t["accent"] if accent else t["ink"], 500, mono=True)
+        doc.text(x, 220, label, 12.5, t["ink3"], mono=True, ls="0.02em")
     return doc
 
 
@@ -205,7 +204,7 @@ PREVIEW = """<!doctype html>
   .muted {{ color: {muted}; }}
 </style></head>
 <body><main>
-<p>我在武汉大学地空学院，把测量、运维和安全里反复出现的问题做成工具：GNSS 信号分析、
+<p>把测量、运维和安全里反复出现的问题做成工具：GNSS 信号分析、
 Windows 控制台、离线维基 U 盘、会自己复现漏洞的 AI 智能体。下载就能跑。</p>
 <p class="muted">这些数字每 6 小时重新算一次，不是截图。</p>
 <img src="../assets/hero-{theme}.svg" width="880" alt="">

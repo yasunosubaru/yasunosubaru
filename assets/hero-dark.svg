@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="248" viewBox="0 0 1000 248" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-labelledby="t d">
   <title id="t">yasunosubaru — 公开数据概览</title>
   <desc id="d">yasunosubaru — 公开数据概览</desc>
   <style>@media (prefers-reduced-motion: no-preference){.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw .9s .3s ease-out forwards}.pulse{animation:pulse 3.8s ease-in-out infinite}}@keyframes draw{to{stroke-dashoffset:0}}@keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}</style>
-  <rect x="0" y="0" width="1000" height="248" fill="#0C1218"/>
-  <rect x="0.5" y="0.5" width="999" height="247" fill="none" rx="4" stroke="#22303B" stroke-width="1"/>
-  <text x="44" y="64" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#8093A0" letter-spacing="0.06em">武汉大学地空学院</text>
-  <text x="956" y="64" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#8093A0" text-anchor="end">2026-10-20 10:33 UTC</text>
-  <circle cx="793" cy="60" r="3.5" fill="#E3A93F" class="pulse"/>
-  <text x="44" y="116" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="44" fill="#E8EFF4" font-weight="600" letter-spacing="-0.02em">yasunosubaru</text>
-  <line x1="44" y1="132" x2="92" y2="132" stroke="#E3A93F" stroke-width="3" class="draw" pathLength="1"/>
-  <line x1="44" y1="164" x2="956" y2="164" stroke="#1A2732" stroke-width="1"/>
-  <text x="44" y="208" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="36" fill="#E8EFF4" font-weight="500">22</text>
-  <text x="44" y="230" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#8093A0" letter-spacing="0.02em">公开仓库</text>
-  <line x1="248" y1="176" x2="248" y2="226" stroke="#1A2732" stroke-width="1"/>
-  <text x="272" y="208" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="36" fill="#E3A93F" font-weight="500">513</text>
-  <text x="272" y="230" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#8093A0" letter-spacing="0.02em">近一年贡献</text>
-  <line x1="476" y1="176" x2="476" y2="226" stroke="#1A2732" stroke-width="1"/>
-  <text x="500" y="208" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="36" fill="#E8EFF4" font-weight="500">8</text>
-  <text x="500" y="230" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#8093A0" letter-spacing="0.02em">当前连续（天）</text>
-  <line x1="704" y1="176" x2="704" y2="226" stroke="#1A2732" stroke-width="1"/>
-  <text x="728" y="208" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="36" fill="#E8EFF4" font-weight="500">119</text>
-  <text x="728" y="230" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#8093A0" letter-spacing="0.02em">单日峰值</text>
+  <rect x="0" y="0" width="1000" height="240" fill="#0C1218"/>
+  <rect x="0.5" y="0.5" width="999" height="239" fill="none" rx="4" stroke="#22303B" stroke-width="1"/>
+  <text x="956" y="50" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#8093A0" text-anchor="end">2026-10-20 10:33 UTC</text>
+  <circle cx="793" cy="46" r="3.5" fill="#E3A93F" class="pulse"/>
+  <text x="44" y="104" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="44" fill="#E8EFF4" font-weight="600" letter-spacing="-0.02em">yasunosubaru</text>
+  <line x1="44" y1="120" x2="92" y2="120" stroke="#E3A93F" stroke-width="3" class="draw" pathLength="1"/>
+  <line x1="44" y1="150" x2="956" y2="150" stroke="#1A2732" stroke-width="1"/>
+  <text x="44" y="198" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="36" fill="#E8EFF4" font-weight="500">22</text>
+  <text x="44" y="220" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#8093A0" letter-spacing="0.02em">公开仓库</text>
+  <line x1="248" y1="162" x2="248" y2="216" stroke="#1A2732" stroke-width="1"/>
+  <text x="272" y="198" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="36" fill="#E3A93F" font-weight="500">513</text>
+  <text x="272" y="220" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#8093A0" letter-spacing="0.02em">近一年贡献</text>
+  <line x1="476" y1="162" x2="476" y2="216" stroke="#1A2732" stroke-width="1"/>
+  <text x="500" y="198" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="36" fill="#E8EFF4" font-weight="500">8</text>
+  <text x="500" y="220" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#8093A0" letter-spacing="0.02em">当前连续（天）</text>
+  <line x1="704" y1="162" x2="704" y2="216" stroke="#1A2732" stroke-width="1"/>
+  <text x="728" y="198" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="36" fill="#E8EFF4" font-weight="500">119</text>
+  <text x="728" y="220" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="12.5" fill="#8093A0" letter-spacing="0.02em">单日峰值</text>
 </svg>
