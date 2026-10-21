@@ -1,7 +1,7 @@
 {
   "meta": {
     "login": "yasunosubaru",
-    "generated_at": "2026-10-21T17:21:00Z",
+    "generated_at": "2026-10-21T21:49:16Z",
     "generator": "github-profile-dashboard/1",
     "repo_source": "graphql",
     "contributions_source": "github.com public calendar"
@@ -1547,27 +1547,13 @@
   },
   "repos": [
     {
-      "name": "lab-notes",
-      "description": "Short engineering notes: measurements, observations, checklists.",
-      "url": "https://github.com/yasunosubaru/lab-notes",
-      "stars": 0,
-      "forks": 0,
-      "created_at": "2026-10-21T13:08:19Z",
-      "pushed_at": "2026-10-21T15:47:01Z",
-      "archived": false,
-      "primary_language": null,
-      "primary_language_color": null,
-      "topics": [],
-      "languages": []
-    },
-    {
       "name": "yasunosubaru",
       "description": "GitHub profile: a self-updating live dashboard rendered by GitHub Actions",
       "url": "https://github.com/yasunosubaru/yasunosubaru",
       "stars": 0,
       "forks": 0,
       "created_at": "2026-10-20T09:36:45Z",
-      "pushed_at": "2026-10-21T12:50:23Z",
+      "pushed_at": "2026-10-21T17:21:20Z",
       "archived": false,
       "primary_language": "Python",
       "primary_language_color": "#3572A5",
@@ -1584,6 +1570,20 @@
           "color": "#012456"
         }
       ]
+    },
+    {
+      "name": "lab-notes",
+      "description": "Short engineering notes: measurements, observations, checklists.",
+      "url": "https://github.com/yasunosubaru/lab-notes",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-21T13:08:19Z",
+      "pushed_at": "2026-10-21T15:47:01Z",
+      "archived": false,
+      "primary_language": null,
+      "primary_language_color": null,
+      "topics": [],
+      "languages": []
     },
     {
       "name": "field-station-agent",
