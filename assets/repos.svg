@@ -7,14 +7,14 @@
   <rect x="0" y="0" width="600" height="330" fill="var(--card)" rx="18" stroke="var(--border)" stroke-width="1" filter="url(#shadow)"/>
   <text x="32" y="48" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="20" fill="var(--ink)" font-weight="600">仓库</text>
   <text x="568" y="48" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" fill="var(--muted)" text-anchor="end">最近更新</text>
-  <circle cx="38" cy="91" r="5.5" fill="#555555"/>
-  <text x="53" y="96" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" fill="var(--ink)" font-weight="600">campus-atlas</text>
+  <circle cx="38" cy="91" r="5.5" fill="#437197"/>
+  <text x="53" y="96" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" fill="var(--ink)" font-weight="600">field-station-agent</text>
   <text x="568" y="96" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" fill="var(--muted)" text-anchor="end">★ 0</text>
-  <text x="53" y="114" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="13.5" fill="var(--muted)">独立的跨平台校园助手：一次登录，把课表、成绩、评教入口、校园地图和…</text>
-  <circle cx="38" cy="131" r="5.5" fill="#437197"/>
-  <text x="53" y="136" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" fill="var(--ink)" font-weight="600">field-station-agent</text>
+  <text x="53" y="114" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="13.5" fill="var(--muted)">武汉大学地空学院 2026 大创：多智能体 AI 野外台站管理系统 —— 监测/…</text>
+  <circle cx="38" cy="131" r="5.5" fill="#555555"/>
+  <text x="53" y="136" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" fill="var(--ink)" font-weight="600">campus-atlas</text>
   <text x="568" y="136" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" fill="var(--muted)" text-anchor="end">★ 0</text>
-  <text x="53" y="154" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="13.5" fill="var(--muted)">武汉大学地空学院 2026 大创：多智能体 AI 野外台站管理系统 —— 监测/…</text>
+  <text x="53" y="154" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="13.5" fill="var(--muted)">独立的跨平台校园助手：一次登录，把课表、成绩、评教入口、校园地图和…</text>
   <circle cx="38" cy="171" r="5.5" fill="var(--faint)"/>
   <text x="53" y="176" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="16" fill="var(--ink)" font-weight="600">achievement-lab</text>
   <text x="568" y="176" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" fill="var(--muted)" text-anchor="end">★ 0</text>
