@@ -13,6 +13,7 @@ import json
 import os
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 from urllib.parse import quote
 
@@ -110,16 +111,53 @@ def streaks(series):
     return current, longest
 
 
-def fetch_contributions(login, start, end):
+def excluded_events(login, names, since):
+    """Contribution events produced by repositories that are not real work.
+
+    The achievement playground alone added 1200 commits and 1146 pull requests
+    on two days, which would otherwise turn the contribution heatmap into a
+    solid wall. Returns {date: events}.
+    """
+    events = Counter()
+    for name in names:
+        page = 1
+        while True:
+            batch = rest(f"/repos/{login}/{name}/commits?per_page=100&page={page}&since={since}")
+            if not batch:
+                break
+            for item in batch:
+                events[item["commit"]["author"]["date"][:10]] += 1
+            page += 1
+            if len(batch) < 100:
+                break
+        page = 1
+        while True:
+            batch = rest(f"/repos/{login}/{name}/pulls?state=all&per_page=100&page={page}")
+            if not batch:
+                break
+            for item in batch:
+                events[item["created_at"][:10]] += 1
+            page += 1
+            if len(batch) < 100:
+                break
+    return events
+
+
+def fetch_contributions(login, start, end, excluded=()):
     # The public calendar is the honest source: a token can see private
     # contributions that visitors of this profile cannot.
     counts = contributions_from_html(login, start, end)
+
+    noise = Counter()
+    if excluded:
+        noise = excluded_events(login, excluded, start.isoformat())
 
     series = []
     cursor = start
     while cursor <= end:
         key = iso(cursor)
-        series.append({"date": key, "count": counts.get(key, 0)})
+        value = counts.get(key, 0) - noise.get(key, 0)
+        series.append({"date": key, "count": max(0, value)})
         cursor += dt.timedelta(days=1)
 
     by_month = []
@@ -289,11 +327,15 @@ def aggregate(repos):
     }
 
 
-def public_counts(login):
+def public_counts(login, excluded=()):
     """PR and issue counters from the *anonymous* search API.
 
     No token on purpose: a token would also count issues in private repos,
     which nobody but the owner can see on the profile page.
+
+    `excluded` lists repositories that exist only to exercise GitHub's own
+    achievement system - counting them would advertise 1200 throwaway pull
+    requests instead of the 56 that are real work.
     """
     def total(query):
         try:
@@ -303,11 +345,16 @@ def public_counts(login):
             return 0
         return int(data.get("total_count", 0))
 
-    return {
+    counts = {
         "pull_requests": total(f"author:{login} type:pr"),
         "issues": total(f"author:{login} type:issue"),
         "merged_pull_requests": total(f"author:{login} type:pr is:merged"),
     }
+    for repo in excluded:
+        counts["pull_requests"] -= total(f"author:{login} type:pr repo:{login}/{repo}")
+        counts["issues"] -= total(f"author:{login} type:issue repo:{login}/{repo}")
+        counts["merged_pull_requests"] -= total(f"author:{login} type:pr is:merged repo:{login}/{repo}")
+    return {key: max(0, value) for key, value in counts.items()}
 
 
 def showcase(repos, limit=6, login=None):
@@ -345,10 +392,14 @@ def main():
     start = end - dt.timedelta(days=364)
 
     repos, repo_source = fetch_repos(login)
-    contributions = fetch_contributions(login, start, end)
+    excluded = list(config.get("exclude_repos", []))
+    dropped = [repo for repo in repos if repo["name"] in excluded]
+    repos = [repo for repo in repos if repo["name"] not in excluded]
+    contributions = fetch_contributions(login, start, end, excluded)
     totals = aggregate(repos)
     account = fetch_account(login)
-    counts = public_counts(login)
+    account["public_repos"] = max(0, account["public_repos"] - len(dropped))
+    counts = public_counts(login, excluded)
 
     profile = {
         "meta": {

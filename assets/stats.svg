@@ -8,13 +8,13 @@
   <line x1="300" y1="30" x2="300" y2="206" stroke="var(--border)" stroke-width="1"/>
   <line x1="32" y1="126" x2="568" y2="126" stroke="var(--border)" stroke-width="1"/>
   <circle cx="37" cy="58" r="5.5" fill="var(--grad-c)"/>
-  <text x="32" y="88" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="40" fill="var(--ink)" font-weight="500">24</text>
+  <text x="32" y="88" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="40" fill="var(--ink)" font-weight="500">23</text>
   <text x="32" y="112" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="var(--muted)">公开仓库</text>
   <circle cx="305" cy="58" r="5.5" fill="var(--grad-b)"/>
-  <text x="300" y="88" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="40" fill="var(--ink)" font-weight="500">2,693</text>
+  <text x="300" y="88" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="40" fill="var(--ink)" font-weight="500">523</text>
   <text x="300" y="112" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="var(--muted)">近一年贡献</text>
   <circle cx="37" cy="156" r="5.5" fill="var(--grad-a)"/>
-  <text x="32" y="186" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="40" fill="var(--ink)" font-weight="500">1,201</text>
+  <text x="32" y="186" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="40" fill="var(--ink)" font-weight="500">56</text>
   <text x="32" y="210" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="var(--muted)">Pull Request</text>
   <circle cx="305" cy="156" r="5.5" fill="#f59e0b"/>
   <text x="300" y="186" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="40" fill="var(--ink)" font-weight="500">59</text>

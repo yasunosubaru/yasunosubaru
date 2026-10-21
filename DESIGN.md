@@ -96,6 +96,9 @@ GitHub GraphQL + 公开日历 HTML + 匿名搜索 API
   token 只用来提额度，不会把私有贡献算进来。
 - PR / Issue 计数走**匿名** search API（`public_rest`，不带 token）：带 token 会把私有仓库
   的 issue 也数进去，那就不是访客看到的数字了。
+- **刷成就用的仓库不计入。** `profile.config.json` 的 `exclude_repos` 列出这类仓库，统计时
+  把它们的仓库数、PR、Issue、提交、PR 事件全部扣掉——不然主页会挂着 1200 个一次性 PR 的
+  数字，热力图也会变成一堵墙。账号本身照旧是那样，只有主页按"真实作品量"展示。
 - 仓库数据优先 GraphQL；失败时退到 REST + 逐仓库 languages（REST 侧过滤 fork）。
 - 任一数据源拉不到就报错退出，**不会**用空数据覆盖上一版图。
 

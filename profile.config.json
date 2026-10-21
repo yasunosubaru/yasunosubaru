@@ -1,4 +1,6 @@
 {
   "login": "yasunosubaru",
-  "headline": "yasunosubaru"
+  "kicker": "武汉大学地空学院",
+  "headline": "yasunosubaru",
+  "exclude_repos": ["achievement-lab"]
 }
