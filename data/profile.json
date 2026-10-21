@@ -1,7 +1,7 @@
 {
   "meta": {
     "login": "yasunosubaru",
-    "generated_at": "2026-10-21T04:59:06Z",
+    "generated_at": "2026-10-21T12:01:22Z",
     "generator": "github-profile-dashboard/1",
     "repo_source": "graphql",
     "contributions_source": "github.com public calendar"
@@ -18,15 +18,15 @@
       "from": "2025-10-22",
       "to": "2026-10-21"
     },
-    "total": 577,
+    "total": 2693,
     "active_days": 23,
-    "avg_per_day": 1.58,
-    "avg_per_active_day": 25.1,
+    "avg_per_day": 7.38,
+    "avg_per_active_day": 117.1,
     "current_streak": 9,
     "longest_streak": 9,
     "best_day": {
-      "date": "2026-10-14",
-      "count": 119
+      "date": "2026-10-21",
+      "count": 2119
     },
     "days": [
       {
@@ -1487,7 +1487,7 @@
       },
       {
         "date": "2026-10-21",
-        "count": 3
+        "count": 2119
       }
     ],
     "by_month": [
@@ -1541,11 +1541,25 @@
       },
       {
         "month": "2026-10",
-        "count": 464
+        "count": 2580
       }
     ]
   },
   "repos": [
+    {
+      "name": "achievement-lab",
+      "description": "A playground for GitHub profile achievements: merged PRs, discussions and co-authored commits. Not production code.",
+      "url": "https://github.com/yasunosubaru/achievement-lab",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-10-20T14:47:09Z",
+      "pushed_at": "2026-10-21T12:01:21Z",
+      "archived": false,
+      "primary_language": null,
+      "primary_language_color": null,
+      "topics": [],
+      "languages": []
+    },
     {
       "name": "field-station-agent",
       "description": "武汉大学地空学院 2026 大创：多智能体 AI 野外台站管理系统 —— 监测/质控/研判/派单/归档闭环。LangGraph 运行时 · MCP 工具接口 · 规则裁决 + 大模型归因。公开脱敏仓库",
@@ -1553,7 +1567,7 @@
       "stars": 0,
       "forks": 0,
       "created_at": "2026-10-13T04:46:39Z",
-      "pushed_at": "2026-10-21T02:12:43Z",
+      "pushed_at": "2026-10-21T11:22:40Z",
       "archived": false,
       "primary_language": "Python",
       "primary_language_color": "#3572A5",
@@ -1574,12 +1588,12 @@
       "languages": [
         {
           "name": "Python",
-          "bytes": 882214,
+          "bytes": 948330,
           "color": "#3572A5"
         },
         {
           "name": "HTML",
-          "bytes": 4905,
+          "bytes": 10515,
           "color": "#e34c26"
         }
       ]
@@ -1591,7 +1605,7 @@
       "stars": 0,
       "forks": 0,
       "created_at": "2026-10-20T09:36:45Z",
-      "pushed_at": "2026-10-20T21:43:14Z",
+      "pushed_at": "2026-10-21T04:59:11Z",
       "archived": false,
       "primary_language": "Python",
       "primary_language_color": "#3572A5",
@@ -1668,20 +1682,6 @@
           "color": "#F05138"
         }
       ]
-    },
-    {
-      "name": "achievement-lab",
-      "description": "A playground for GitHub profile achievements: merged PRs, discussions and co-authored commits. Not production code.",
-      "url": "https://github.com/yasunosubaru/achievement-lab",
-      "stars": 0,
-      "forks": 0,
-      "created_at": "2026-10-20T14:47:09Z",
-      "pushed_at": "2026-10-20T15:24:04Z",
-      "archived": false,
-      "primary_language": null,
-      "primary_language_color": null,
-      "topics": [],
-      "languages": []
     },
     {
       "name": "kiwix-usb-portable",
@@ -2482,11 +2482,20 @@
     }
   ],
   "counts": {
-    "pull_requests": 76,
-    "issues": 56,
-    "merged_pull_requests": 72
+    "pull_requests": 1201,
+    "issues": 59,
+    "merged_pull_requests": 1198
   },
   "showcase": [
+    {
+      "name": "achievement-lab",
+      "description": "A playground for GitHub profile achievements: merged PRs, discussions and co-authored commits. Not production code.",
+      "url": "https://github.com/yasunosubaru/achievement-lab",
+      "stars": 0,
+      "language": null,
+      "language_color": null,
+      "pushed_at": "2026-10-21T12:01:21Z"
+    },
     {
       "name": "field-station-agent",
       "description": "武汉大学地空学院 2026 大创：多智能体 AI 野外台站管理系统 —— 监测/质控/研判/派单/归档闭环。LangGraph 运行时 · MCP 工具接口 · 规则裁决 + 大模型归因。公开脱敏仓库",
@@ -2494,7 +2503,7 @@
       "stars": 0,
       "language": "Python",
       "language_color": "#3572A5",
-      "pushed_at": "2026-10-21T02:12:43Z"
+      "pushed_at": "2026-10-21T11:22:40Z"
     },
     {
       "name": "campus-atlas",
@@ -2504,15 +2513,6 @@
       "language": "C",
       "language_color": "#555555",
       "pushed_at": "2026-10-20T16:16:23Z"
-    },
-    {
-      "name": "achievement-lab",
-      "description": "A playground for GitHub profile achievements: merged PRs, discussions and co-authored commits. Not production code.",
-      "url": "https://github.com/yasunosubaru/achievement-lab",
-      "stars": 0,
-      "language": null,
-      "language_color": null,
-      "pushed_at": "2026-10-20T15:24:04Z"
     },
     {
       "name": "kiwix-usb-portable",
@@ -2547,13 +2547,13 @@
       "name": "TypeScript",
       "bytes": 15728363,
       "color": "#3178c6",
-      "pct": 48.2
+      "pct": 48.1
     },
     {
       "name": "Python",
-      "bytes": 8039174,
+      "bytes": 8105290,
       "color": "#3572A5",
-      "pct": 24.6
+      "pct": 24.8
     },
     {
       "name": "C",
@@ -2610,15 +2610,15 @@
       "pct": 0.6
     },
     {
-      "name": "Shell",
-      "bytes": 74260,
-      "color": "#89e051",
+      "name": "HTML",
+      "bytes": 74872,
+      "color": "#e34c26",
       "pct": 0.2
     },
     {
-      "name": "HTML",
-      "bytes": 69262,
-      "color": "#e34c26",
+      "name": "Shell",
+      "bytes": 74260,
+      "color": "#89e051",
       "pct": 0.2
     },
     {
@@ -2744,7 +2744,7 @@
       "pct": 4.3
     }
   ],
-  "language_total_bytes": 32634874,
+  "language_total_bytes": 32706600,
   "topics": [
     {
       "name": "windows",
