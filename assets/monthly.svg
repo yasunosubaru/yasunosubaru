@@ -22,10 +22,10 @@
   <text x="361.78" y="294" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--faint)" text-anchor="middle">7月</text>
   <rect x="406.56" y="264" width="26" height="4" fill="var(--border)" rx="6"/>
   <text x="419.56" y="294" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--faint)" text-anchor="middle">8月</text>
-  <rect x="464.33" y="225.88" width="26" height="42.12" fill="var(--grad-a)" rx="6"/>
-  <text x="477.33" y="215.88" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--muted)" text-anchor="middle">112</text>
+  <rect x="464.33" y="226.06" width="26" height="41.94" fill="var(--grad-a)" rx="6"/>
+  <text x="477.33" y="216.06" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--muted)" text-anchor="middle">112</text>
   <text x="477.33" y="294" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--faint)" text-anchor="middle">9月</text>
   <rect x="522.11" y="92" width="26" height="176" fill="var(--grad-a)" rx="6"/>
-  <text x="535.11" y="82" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--muted)" text-anchor="middle">468</text>
+  <text x="535.11" y="82" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--muted)" text-anchor="middle">470</text>
   <text x="535.11" y="294" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--faint)" text-anchor="middle">10月</text>
 </svg>
