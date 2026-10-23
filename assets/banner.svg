@@ -10,6 +10,6 @@
   <rect x="0" y="0" width="1200" height="220" fill="url(#dots)" rx="22"/>
   <text x="64" y="128" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="56" fill="#ffffff" font-weight="700" letter-spacing="-0.03em">yasunosubaru</text>
   <rect x="64" y="150" width="58" height="5" fill="#ffffff" rx="2.5" opacity="0.92"/>
-  <text x="1144" y="72" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" fill="#ffffff" text-anchor="end" opacity="0.82">2026-10-23 17:16 UTC</text>
+  <text x="1144" y="72" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" fill="#ffffff" text-anchor="end" opacity="0.82">2026-10-23 21:30 UTC</text>
   <circle cx="962" cy="67" r="4" fill="#ffffff" opacity="0.9" class="pulse"/>
 </svg>
