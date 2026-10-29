@@ -1,14 +1,14 @@
 {
   "meta": {
     "login": "yasunosubaru",
-    "generated_at": "2026-10-29T13:17:26Z",
+    "generated_at": "2026-10-29T22:50:54Z",
     "generator": "github-profile-dashboard/1",
     "repo_source": "graphql",
     "contributions_source": "github.com public calendar"
   },
   "user": {
     "login": "yasunosubaru",
-    "public_repos": 23,
+    "public_repos": 22,
     "followers": 0,
     "created_at": "2026-02-08T15:38:56Z"
   },
@@ -18,15 +18,15 @@
       "from": "2025-10-30",
       "to": "2026-10-29"
     },
-    "total": 584,
-    "active_days": 24,
-    "avg_per_day": 1.6,
-    "avg_per_active_day": 24.3,
+    "total": 371,
+    "active_days": 23,
+    "avg_per_day": 1.02,
+    "avg_per_active_day": 16.1,
     "current_streak": 0,
-    "longest_streak": 8,
+    "longest_streak": 7,
     "best_day": {
-      "date": "2026-10-14",
-      "count": 119
+      "date": "2026-10-22",
+      "count": 60
     },
     "days": [
       {
@@ -1423,35 +1423,35 @@
       },
       {
         "date": "2026-10-13",
-        "count": 42
+        "count": 11
       },
       {
         "date": "2026-10-14",
-        "count": 119
-      },
-      {
-        "date": "2026-10-15",
-        "count": 41
-      },
-      {
-        "date": "2026-10-16",
-        "count": 49
-      },
-      {
-        "date": "2026-10-17",
         "count": 52
       },
       {
+        "date": "2026-10-15",
+        "count": 26
+      },
+      {
+        "date": "2026-10-16",
+        "count": 23
+      },
+      {
+        "date": "2026-10-17",
+        "count": 21
+      },
+      {
         "date": "2026-10-18",
-        "count": 17
+        "count": 4
       },
       {
         "date": "2026-10-19",
-        "count": 25
+        "count": 13
       },
       {
         "date": "2026-10-20",
-        "count": 18
+        "count": 0
       },
       {
         "date": "2026-10-21",
@@ -1541,7 +1541,7 @@
       },
       {
         "month": "2026-10",
-        "count": 471
+        "count": 258
       }
     ]
   },
@@ -1553,7 +1553,7 @@
       "stars": 0,
       "forks": 0,
       "created_at": "2026-10-20T09:36:45Z",
-      "pushed_at": "2026-10-29T05:58:54Z",
+      "pushed_at": "2026-10-29T13:17:58Z",
       "archived": false,
       "primary_language": "Python",
       "primary_language_color": "#3572A5",
@@ -1568,44 +1568,6 @@
           "name": "PowerShell",
           "bytes": 620,
           "color": "#012456"
-        }
-      ]
-    },
-    {
-      "name": "field-station-agent",
-      "description": "武汉大学地空学院 2026 大创：多智能体 AI 野外台站管理系统 —— 监测/质控/研判/派单/归档闭环。LangGraph 运行时 · MCP 工具接口 · 规则裁决 + 大模型归因。公开脱敏仓库",
-      "url": "https://github.com/yasunosubaru/field-station-agent",
-      "stars": 0,
-      "forks": 0,
-      "created_at": "2026-10-13T04:46:39Z",
-      "pushed_at": "2026-10-21T11:22:40Z",
-      "archived": false,
-      "primary_language": "Python",
-      "primary_language_color": "#3572A5",
-      "topics": [
-        "aiops",
-        "field-station",
-        "gnss",
-        "langgraph",
-        "llm-agent",
-        "mcp",
-        "model-context-protocol",
-        "multi-agent",
-        "observatory",
-        "python",
-        "remote-monitoring",
-        "space-weather"
-      ],
-      "languages": [
-        {
-          "name": "Python",
-          "bytes": 948330,
-          "color": "#3572A5"
-        },
-        {
-          "name": "HTML",
-          "bytes": 10515,
-          "color": "#e34c26"
         }
       ]
     },
@@ -2468,20 +2430,11 @@
     }
   ],
   "counts": {
-    "pull_requests": 56,
-    "issues": 59,
-    "merged_pull_requests": 54
+    "pull_requests": 1,
+    "issues": 3,
+    "merged_pull_requests": 0
   },
   "showcase": [
-    {
-      "name": "field-station-agent",
-      "description": "武汉大学地空学院 2026 大创：多智能体 AI 野外台站管理系统 —— 监测/质控/研判/派单/归档闭环。LangGraph 运行时 · MCP 工具接口 · 规则裁决 + 大模型归因。公开脱敏仓库",
-      "url": "https://github.com/yasunosubaru/field-station-agent",
-      "stars": 0,
-      "language": "Python",
-      "language_color": "#3572A5",
-      "pushed_at": "2026-10-21T11:22:40Z"
-    },
     {
       "name": "campus-atlas",
       "description": "独立的跨平台校园助手：一次登录，把课表、成绩、评教入口、校园地图和日程放进同一个窗口。Flutter · MIT · 与任何官方校园应用无关联",
@@ -2526,6 +2479,15 @@
       "language": "Dart",
       "language_color": "#00B4AB",
       "pushed_at": "2026-10-20T15:22:19Z"
+    },
+    {
+      "name": "ProgramDock",
+      "description": "A fast Windows program launcher and searchable application dock.",
+      "url": "https://github.com/yasunosubaru/ProgramDock",
+      "stars": 0,
+      "language": "C#",
+      "language_color": "#7355dd",
+      "pushed_at": "2026-10-20T15:22:02Z"
     }
   ],
   "languages": [
@@ -2533,37 +2495,37 @@
       "name": "TypeScript",
       "bytes": 15728363,
       "color": "#3178c6",
-      "pct": 48.1
+      "pct": 49.5
     },
     {
       "name": "Python",
-      "bytes": 8107448,
+      "bytes": 7159118,
       "color": "#3572A5",
-      "pct": 24.8
+      "pct": 22.5
     },
     {
       "name": "C",
       "bytes": 2540787,
       "color": "#555555",
-      "pct": 7.8
+      "pct": 8.0
     },
     {
       "name": "Dart",
       "bytes": 1665505,
       "color": "#00B4AB",
-      "pct": 5.1
+      "pct": 5.2
     },
     {
       "name": "C#",
       "bytes": 1655152,
       "color": "#7355dd",
-      "pct": 5.1
+      "pct": 5.2
     },
     {
       "name": "Rust",
       "bytes": 938691,
       "color": "#dea584",
-      "pct": 2.9
+      "pct": 3.0
     },
     {
       "name": "CSS",
@@ -2596,15 +2558,15 @@
       "pct": 0.6
     },
     {
-      "name": "HTML",
-      "bytes": 74872,
-      "color": "#e34c26",
-      "pct": 0.2
-    },
-    {
       "name": "Shell",
       "bytes": 74260,
       "color": "#89e051",
+      "pct": 0.2
+    },
+    {
+      "name": "HTML",
+      "bytes": 64357,
+      "color": "#e34c26",
       "pct": 0.2
     },
     {
@@ -2688,57 +2650,53 @@
   ],
   "primary_languages": [
     {
-      "name": "Python",
-      "repos": 7,
-      "color": "#3572A5",
-      "pct": 30.4
-    },
-    {
       "name": "C#",
       "repos": 6,
       "color": "#7355dd",
-      "pct": 26.1
+      "pct": 27.3
+    },
+    {
+      "name": "Python",
+      "repos": 6,
+      "color": "#3572A5",
+      "pct": 27.3
     },
     {
       "name": "TypeScript",
       "repos": 5,
       "color": "#3178c6",
-      "pct": 21.7
+      "pct": 22.7
     },
     {
       "name": "PowerShell",
       "repos": 2,
       "color": "#012456",
-      "pct": 8.7
+      "pct": 9.1
     },
     {
       "name": "C",
       "repos": 1,
       "color": "#555555",
-      "pct": 4.3
+      "pct": 4.5
     },
     {
       "name": "Dart",
       "repos": 1,
       "color": "#00B4AB",
-      "pct": 4.3
+      "pct": 4.5
     },
     {
       "name": "Rust",
       "repos": 1,
       "color": "#dea584",
-      "pct": 4.3
+      "pct": 4.5
     }
   ],
-  "language_total_bytes": 32708758,
+  "language_total_bytes": 31749913,
   "topics": [
     {
       "name": "windows",
       "count": 5
-    },
-    {
-      "name": "python",
-      "count": 3
     },
     {
       "name": "desktop-app",
@@ -2757,15 +2715,15 @@
       "count": 2
     },
     {
+      "name": "python",
+      "count": 2
+    },
+    {
       "name": "1password",
       "count": 1
     },
     {
       "name": "adb",
-      "count": 1
-    },
-    {
-      "name": "aiops",
       "count": 1
     },
     {
@@ -2829,15 +2787,7 @@
       "count": 1
     },
     {
-      "name": "field-station",
-      "count": 1
-    },
-    {
       "name": "fnos",
-      "count": 1
-    },
-    {
-      "name": "gnss",
       "count": 1
     },
     {
@@ -2857,10 +2807,6 @@
       "count": 1
     },
     {
-      "name": "langgraph",
-      "count": 1
-    },
-    {
       "name": "lastpass",
       "count": 1
     },
@@ -2873,10 +2819,6 @@
       "count": 1
     },
     {
-      "name": "llm-agent",
-      "count": 1
-    },
-    {
       "name": "local-first",
       "count": 1
     },
@@ -2885,23 +2827,7 @@
       "count": 1
     },
     {
-      "name": "mcp",
-      "count": 1
-    },
-    {
-      "name": "model-context-protocol",
-      "count": 1
-    },
-    {
-      "name": "multi-agent",
-      "count": 1
-    },
-    {
       "name": "nas",
-      "count": 1
-    },
-    {
-      "name": "observatory",
       "count": 1
     },
     {
@@ -2949,10 +2875,6 @@
       "count": 1
     },
     {
-      "name": "remote-monitoring",
-      "count": 1
-    },
-    {
       "name": "rust",
       "count": 1
     },
@@ -2978,10 +2900,6 @@
     },
     {
       "name": "slint",
-      "count": 1
-    },
-    {
-      "name": "space-weather",
       "count": 1
     },
     {

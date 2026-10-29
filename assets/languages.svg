@@ -6,29 +6,29 @@
   <style>.pulse{animation:pulse 3.8s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}@media (prefers-reduced-motion:reduce){.pulse{animation:none;opacity:1}}</style>
   <rect x="0" y="0" width="600" height="236" fill="var(--card)" rx="18" stroke="var(--border)" stroke-width="1" filter="url(#shadow)"/>
   <text x="32" y="48" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="20" fill="var(--ink)" font-weight="600">语言分布</text>
-  <text x="568" y="48" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" fill="var(--muted)" text-anchor="end">共 22 个仓库</text>
-  <rect x="32" y="78" width="165.77" height="15" fill="#437197" rx="7.5"/>
-  <rect x="200.77" y="78" width="142.09" height="15" fill="#7D66CC" rx="7.5"/>
-  <rect x="345.86" y="78" width="118.41" height="15" fill="#4479B3" rx="7.5"/>
-  <rect x="467.27" y="78" width="47.36" height="15" fill="#0C264B" rx="7.5"/>
-  <rect x="517.64" y="78" width="23.68" height="15" fill="#555555" rx="7.5"/>
-  <rect x="544.32" y="78" width="23.68" height="15" fill="#179E97" rx="7.5"/>
-  <circle cx="37" cy="129" r="5.5" fill="#437197"/>
-  <text x="51" y="134" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="var(--ink)">Python</text>
-  <text x="266" y="134" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--muted)" text-anchor="end">30.4%</text>
-  <circle cx="305" cy="129" r="5.5" fill="#7D66CC"/>
-  <text x="319" y="134" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="var(--ink)">C#</text>
-  <text x="534" y="134" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--muted)" text-anchor="end">26.1%</text>
+  <text x="568" y="48" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="14" fill="var(--muted)" text-anchor="end">共 21 个仓库</text>
+  <rect x="32" y="78" width="148.86" height="15" fill="#7D66CC" rx="7.5"/>
+  <rect x="183.86" y="78" width="148.86" height="15" fill="#437197" rx="7.5"/>
+  <rect x="335.71" y="78" width="124.05" height="15" fill="#4479B3" rx="7.5"/>
+  <rect x="462.76" y="78" width="49.62" height="15" fill="#0C264B" rx="7.5"/>
+  <rect x="515.38" y="78" width="24.81" height="15" fill="#555555" rx="7.5"/>
+  <rect x="543.19" y="78" width="24.81" height="15" fill="#179E97" rx="7.5"/>
+  <circle cx="37" cy="129" r="5.5" fill="#7D66CC"/>
+  <text x="51" y="134" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="var(--ink)">C#</text>
+  <text x="266" y="134" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--muted)" text-anchor="end">27.3%</text>
+  <circle cx="305" cy="129" r="5.5" fill="#437197"/>
+  <text x="319" y="134" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="var(--ink)">Python</text>
+  <text x="534" y="134" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--muted)" text-anchor="end">27.3%</text>
   <circle cx="37" cy="163" r="5.5" fill="#4479B3"/>
   <text x="51" y="168" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="var(--ink)">TypeScript</text>
-  <text x="266" y="168" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--muted)" text-anchor="end">21.7%</text>
+  <text x="266" y="168" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--muted)" text-anchor="end">22.7%</text>
   <circle cx="305" cy="163" r="5.5" fill="#0C264B"/>
   <text x="319" y="168" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="var(--ink)">PowerShell</text>
-  <text x="534" y="168" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--muted)" text-anchor="end">8.7%</text>
+  <text x="534" y="168" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--muted)" text-anchor="end">9.1%</text>
   <circle cx="37" cy="197" r="5.5" fill="#555555"/>
   <text x="51" y="202" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="var(--ink)">C</text>
-  <text x="266" y="202" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--muted)" text-anchor="end">4.3%</text>
+  <text x="266" y="202" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--muted)" text-anchor="end">4.5%</text>
   <circle cx="305" cy="197" r="5.5" fill="#179E97"/>
   <text x="319" y="202" font-family="ui-sans-serif, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, &quot;Noto Sans SC&quot;, Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="var(--ink)">Dart</text>
-  <text x="534" y="202" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--muted)" text-anchor="end">4.3%</text>
+  <text x="534" y="202" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="15" fill="var(--muted)" text-anchor="end">4.5%</text>
 </svg>
