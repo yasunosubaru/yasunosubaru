@@ -28,7 +28,7 @@
   <rect x="473" y="92" width="26" height="176" fill="var(--grad-a)" rx="6"/>
   <text x="486" y="82" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--muted)" text-anchor="middle">258</text>
   <text x="486" y="294" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--faint)" text-anchor="middle">10月</text>
-  <rect x="525" y="263.22" width="26" height="4.78" fill="var(--grad-a)" rx="6"/>
-  <text x="538" y="253.22" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--muted)" text-anchor="middle">7</text>
+  <rect x="525" y="259.81" width="26" height="8.19" fill="var(--grad-a)" rx="6"/>
+  <text x="538" y="249.81" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--muted)" text-anchor="middle">12</text>
   <text x="538" y="294" font-family="ui-monospace, &quot;Cascadia Mono&quot;, &quot;SF Mono&quot;, SFMono-Regular, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace" font-size="13" fill="var(--faint)" text-anchor="middle">11月</text>
 </svg>
